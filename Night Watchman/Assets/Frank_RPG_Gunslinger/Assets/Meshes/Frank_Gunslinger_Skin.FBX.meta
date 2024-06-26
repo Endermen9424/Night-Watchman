@@ -642,7 +642,37 @@ ModelImporter:
   - first:
       137: 13700012
     second: Weapon_Dummy
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Body
+    second: {fileID: 2100000, guid: 884ced505b87c5d48ac73d2c072461f8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gun_Color_GunBlue
+    second: {fileID: 2100000, guid: d88f8e879b2f3e143ada730a01cd5bb2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gun_Color_Silver
+    second: {fileID: 2100000, guid: d5185fe01e46ca643abb0996e55ebd8e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gun_Color_Tan
+    second: {fileID: 2100000, guid: cdeea25aa8458594aad102c42325d96e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gunfire
+    second: {fileID: 2100000, guid: 651cce9d79d45e5479a21a1fe830bae3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shell_Color
+    second: {fileID: 2100000, guid: f8754aa0fb44d084f807ddc12bc30227, type: 2}
   materials:
     materialImportMode: 1
     materialName: 0
