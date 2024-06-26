@@ -1,0 +1,753 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.22f1 (887be4894c44) revision 8944612'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit CoreSingleLanguage' Language: 'tr' Physical Memory: 16221 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.22f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker7
+-projectPath
+D:/02 RÃ¼zgar Dosyalar/Github/Night-Watchman/Night Watchman
+-logFile
+Logs/AssetImportWorker7.log
+-srvPort
+49329
+Successfully changed project path to: D:/02 RÃ¼zgar Dosyalar/Github/Night-Watchman/Night Watchman
+D:/02 RÃ¼zgar Dosyalar/Github/Night-Watchman/Night Watchman
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [9024] Host "[IP] 192.168.1.114 [Port] 0 [Flags] 2 [Guid] 4273476269 [EditorId] 4273476269 [Version] 1048832 [Id] WindowsEditor(7,Tulpar) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [9024] Host "[IP] 192.168.1.114 [Port] 0 [Flags] 2 [Guid] 4273476269 [EditorId] 4273476269 [Version] 1048832 [Id] WindowsEditor(7,Tulpar) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 11 workers.
+Refreshing native plugins compatible for Editor in 9.73 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.22f1 (887be4894c44)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.22f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/02 RÃ¼zgar Dosyalar/Github/Night-Watchman/Night Watchman/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3060 Laptop GPU (ID=0x2520)
+    Vendor:   NVIDIA
+    VRAM:     5996 MB
+    Driver:   31.0.15.5212
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.22f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.22f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.22f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56220
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.22f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.22f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.22f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.019817 seconds.
+- Loaded All Assemblies, in  0.598 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 322 ms
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.688 seconds
+Domain Reload Profiling: 1283ms
+	BeginReloadAssembly (133ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (55ms)
+	RebuildNativeTypeToScriptingClass (24ms)
+	initialDomainReloadingComplete (127ms)
+	LoadAllAssembliesAndSetupDomain (256ms)
+		LoadAssemblies (131ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (251ms)
+			TypeCache.Refresh (249ms)
+				TypeCache.ScanAssembly (229ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (689ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (611ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (457ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (109ms)
+			ProcessInitializeOnLoadMethodAttributes (40ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.798 seconds
+Refreshing native plugins compatible for Editor in 4.63 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.898 seconds
+Domain Reload Profiling: 1694ms
+	BeginReloadAssembly (167ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (27ms)
+	RebuildCommonClasses (40ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (44ms)
+	LoadAllAssembliesAndSetupDomain (532ms)
+		LoadAssemblies (330ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (297ms)
+			TypeCache.Refresh (258ms)
+				TypeCache.ScanAssembly (238ms)
+			ScanForSourceGeneratedMonoScriptInfo (26ms)
+			ResolveRequiredComponents (11ms)
+	FinalizeReload (899ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (711ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (30ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (75ms)
+			ProcessInitializeOnLoadAttributes (388ms)
+			ProcessInitializeOnLoadMethodAttributes (206ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 3.75 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6225 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 99 unused Assets / (3.6 MB). Loaded Objects now: 6694.
+Memory consumption went from 293.1 MB to 289.6 MB.
+Total: 4.878300 ms (FindLiveObjects: 0.462400 ms CreateObjectMapping: 0.527600 ms MarkObjects: 3.154300 ms  DeleteObjects: 0.732800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/ShaderConfig.cs: 3af4ad9bd843c1d69e0cc638345d4d35 -> 435f7e007af0fde1e477434c0591a7c1
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 204432.435982 seconds.
+  path: Assets/Frank_RPG_Gunslinger/Assets/Animations/FBX/Frank_RPG_Gunslinger_AirCombo01_All.FBX
+  artifactKey: Guid(f85ac386a76329a4dad8a8244954e54a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Frank_RPG_Gunslinger/Assets/Animations/FBX/Frank_RPG_Gunslinger_AirCombo01_All.FBX using Guid(f85ac386a76329a4dad8a8244954e54a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '26cbedc07a5681fe5bb093bebd0d93f5') in 0.177462 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 182
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Frank_RPG_Gunslinger/Assets/Animations/FBX/Frank_RPG_Gunslinger_Crouch_Start.FBX
+  artifactKey: Guid(834de31676ffec1488838e1d5f94c14e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Frank_RPG_Gunslinger/Assets/Animations/FBX/Frank_RPG_Gunslinger_Crouch_Start.FBX using Guid(834de31676ffec1488838e1d5f94c14e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '219698266ca4897e65e6b431b0b55c25') in 0.031872 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 182
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Frank_RPG_Gunslinger/Demo
+  artifactKey: Guid(93133fb462b101645adbd071195242b1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Frank_RPG_Gunslinger/Demo using Guid(93133fb462b101645adbd071195242b1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '68462f75785cf4ab2615c9f3835d7894') in 0.012904 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Frank_RPG_Gunslinger/Assets/Animations/FBX/Frank_RPG_Gunslinger_8Way_Walk_R.FBX
+  artifactKey: Guid(1eda09a7ea80c2d4dbcc0f2d1460edf5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Frank_RPG_Gunslinger/Assets/Animations/FBX/Frank_RPG_Gunslinger_8Way_Walk_R.FBX using Guid(1eda09a7ea80c2d4dbcc0f2d1460edf5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'edd2d85e2b629413975aa1b1cbaf8545') in 0.036297 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 182
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Frank_RPG_Gunslinger/Assets/Animations/FBX/Frank_RPG_Gunslinger_Equip_Idle.FBX
+  artifactKey: Guid(3f3d651f38b54ef4abbe402ed0a73127) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Frank_RPG_Gunslinger/Assets/Animations/FBX/Frank_RPG_Gunslinger_Equip_Idle.FBX using Guid(3f3d651f38b54ef4abbe402ed0a73127) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '318506ce944da2d9804f2184f21993cb') in 0.050640 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 182
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Frank_RPG_Gunslinger/Assets/Animations/FBX/Frank_RPG_Gunslinger_Combo04_All.FBX
+  artifactKey: Guid(0a51065392d7ec845975744bfb8a9f1d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Frank_RPG_Gunslinger/Assets/Animations/FBX/Frank_RPG_Gunslinger_Combo04_All.FBX using Guid(0a51065392d7ec845975744bfb8a9f1d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'de390ad1e50d26749188547c48b3038b') in 0.051377 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 182
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Frank_RPG_Gunslinger/Assets/Animations/FBX/Frank_RPG_Gunslinger_Attack05.FBX
+  artifactKey: Guid(46ec66b5a8c8563449985d8c1d331e4a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Frank_RPG_Gunslinger/Assets/Animations/FBX/Frank_RPG_Gunslinger_Attack05.FBX using Guid(46ec66b5a8c8563449985d8c1d331e4a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '2527b930d72e51e99626b3ab1d0c8010') in 0.040453 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 182
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Frank_RPG_Gunslinger/Assets/Animations/FBX/Frank_RPG_Gunslinger_Walk.FBX
+  artifactKey: Guid(8e8bc3e7d09f1ef4ead309d6459f55fa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Frank_RPG_Gunslinger/Assets/Animations/FBX/Frank_RPG_Gunslinger_Walk.FBX using Guid(8e8bc3e7d09f1ef4ead309d6459f55fa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '498f88e8cff979d5173906b19fd84d9c') in 0.032506 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 182
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Frank_RPG_Gunslinger/Assets/Animations/FBX/Frank_RPG_Gunslinger_Run06_Rifle_Aim.FBX
+  artifactKey: Guid(4e9ca6e2eadb6db4cb9992aa05687e35) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Frank_RPG_Gunslinger/Assets/Animations/FBX/Frank_RPG_Gunslinger_Run06_Rifle_Aim.FBX using Guid(4e9ca6e2eadb6db4cb9992aa05687e35) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '11fc3e3d3b9b520249c3995c9ed65d17') in 0.030650 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 182
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Frank_RPG_Gunslinger/Assets/Animations/Frank_Gunslinger_Demo.controller
+  artifactKey: Guid(2f827b4b92a00964b89abbbb7ad027ec) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Frank_RPG_Gunslinger/Assets/Animations/Frank_Gunslinger_Demo.controller using Guid(2f827b4b92a00964b89abbbb7ad027ec) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '71160f4ba0857f473542c21048074aab') in 0.125302 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 43
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Frank_RPG_Gunslinger/Assets/Animations/FBX/Frank_RPG_Gunslinger_Evade_F.FBX
+  artifactKey: Guid(0cac7850daca0bb41bdd321605813bdc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Frank_RPG_Gunslinger/Assets/Animations/FBX/Frank_RPG_Gunslinger_Evade_F.FBX using Guid(0cac7850daca0bb41bdd321605813bdc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'ec3315b5de6863a7a8918f3b1aecb1cc') in 0.027578 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 182
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Frank_RPG_Gunslinger/Assets/Animations/FBX/Frank_RPG_Gunslinger_Unequip_Run.FBX
+  artifactKey: Guid(ec5a4937a542e3449a6762d718634362) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Frank_RPG_Gunslinger/Assets/Animations/FBX/Frank_RPG_Gunslinger_Unequip_Run.FBX using Guid(ec5a4937a542e3449a6762d718634362) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '0726c1c895d9968d94c6634ea18b03d9') in 0.023629 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 182
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Frank_RPG_Gunslinger/Assets/Animations/FBX/Frank_RPG_Gunslinger_8Way_Walk_F.FBX
+  artifactKey: Guid(b0d40a314a8199b4a9aef2461ceb54e4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Frank_RPG_Gunslinger/Assets/Animations/FBX/Frank_RPG_Gunslinger_8Way_Walk_F.FBX using Guid(b0d40a314a8199b4a9aef2461ceb54e4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '6fe539707b74ea56d1309186f255a26c') in 0.033047 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 182
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Frank_RPG_Gunslinger/Assets/Animations/FBX/Frank_RPG_Gunslinger_8Way_Run_B.FBX
+  artifactKey: Guid(2cc96d9aeda0ced48914f0fc63293489) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Frank_RPG_Gunslinger/Assets/Animations/FBX/Frank_RPG_Gunslinger_8Way_Run_B.FBX using Guid(2cc96d9aeda0ced48914f0fc63293489) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '855cc5d3c92d3d3007f8a98c7102ab86') in 0.027181 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 182
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Frank_RPG_Gunslinger/Assets/Animations/FBX/Frank_RPG_Gunslinger_Hit02.FBX
+  artifactKey: Guid(71871b574273e27498f1450414c18113) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Frank_RPG_Gunslinger/Assets/Animations/FBX/Frank_RPG_Gunslinger_Hit02.FBX using Guid(71871b574273e27498f1450414c18113) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '773caeff75e4d79515b3adda45e97969') in 0.025397 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 182
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Frank_RPG_Gunslinger/Assets/Textures/Gunfire_FX.png
+  artifactKey: Guid(6b23a6ab9ca8437468bd20909590d73a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Frank_RPG_Gunslinger/Assets/Textures/Gunfire_FX.png using Guid(6b23a6ab9ca8437468bd20909590d73a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '3c2b031c0eba75adb9087df7751852c9') in 0.057408 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Frank_RPG_Gunslinger/Assets/Animations/FBX/Frank_RPG_Gunslinger_8Way_Run_FL.FBX
+  artifactKey: Guid(f687bf1f09fde7141a36b92cf94171c7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Frank_RPG_Gunslinger/Assets/Animations/FBX/Frank_RPG_Gunslinger_8Way_Run_FL.FBX using Guid(f687bf1f09fde7141a36b92cf94171c7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '62ff69f388423188fcadf448716acf1f') in 0.028784 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 182
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Frank_RPG_Gunslinger/Assets/Animations/FBX/Frank_RPG_Gunslinger_Step_R.FBX
+  artifactKey: Guid(5224eb932f61f6f4f8e6ea04cc319479) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Frank_RPG_Gunslinger/Assets/Animations/FBX/Frank_RPG_Gunslinger_Step_R.FBX using Guid(5224eb932f61f6f4f8e6ea04cc319479) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '7a731dbb30e72ec48c68453b0ff8ba1f') in 0.025000 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 182
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Frank_RPG_Gunslinger/Assets/Materials/Frank_Gunslinger_Body.mat
+  artifactKey: Guid(ee0bb8433c10d1b48bdcd78bd220e832) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Frank_RPG_Gunslinger/Assets/Materials/Frank_Gunslinger_Body.mat using Guid(ee0bb8433c10d1b48bdcd78bd220e832) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '6597224888a79589578a2ce0e5e40472') in 0.021286 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Frank_RPG_Gunslinger/Assets/Animations/FBX/Frank_RPG_Gunslinger_Run04_HandGun_Aim_Velocity.FBX
+  artifactKey: Guid(c18af87a4a47451488df39bb23fb0af0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Frank_RPG_Gunslinger/Assets/Animations/FBX/Frank_RPG_Gunslinger_Run04_HandGun_Aim_Velocity.FBX using Guid(c18af87a4a47451488df39bb23fb0af0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '25dc2f3fd7a18022147ce6ddeb7a600d') in 0.030160 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 182
+========================================================================
+Received Import Request.
+  Time since last request: 0.000456 seconds.
+  path: Assets/Frank_RPG_Gunslinger/Demo/Frank_RPG_Gunslinger.unity
+  artifactKey: Guid(deae0466d43ff3341bf3443294c38293) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Frank_RPG_Gunslinger/Demo/Frank_RPG_Gunslinger.unity using Guid(deae0466d43ff3341bf3443294c38293) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'c5e1eef5c617cbd264bd272954902ed8') in 0.009956 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Frank_RPG_Gunslinger/Assets/Animations/FBX/Frank_RPG_Gunslinger_Skill01.FBX
+  artifactKey: Guid(9a822e9f2d2f7c146a3c9a53c83b1ada) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Frank_RPG_Gunslinger/Assets/Animations/FBX/Frank_RPG_Gunslinger_Skill01.FBX using Guid(9a822e9f2d2f7c146a3c9a53c83b1ada) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'd1f8c32bc68831f8cfc1abfc878c11f1') in 0.030030 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 182
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Frank_RPG_Gunslinger/Assets/Animations/FBX/Frank_RPG_Gunslinger_Run01_Velocity.FBX
+  artifactKey: Guid(9168166af8403684d9c8867fc818c2e9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Frank_RPG_Gunslinger/Assets/Animations/FBX/Frank_RPG_Gunslinger_Run01_Velocity.FBX using Guid(9168166af8403684d9c8867fc818c2e9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '26da7f043089788b5b5dd8a0af67b4ce') in 0.026116 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 182
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Frank_RPG_Gunslinger/Assets/Animations/FBX/Frank_RPG_Gunslinger_Run01.FBX
+  artifactKey: Guid(66fa6b7e536863540ab43d3a171280be) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Frank_RPG_Gunslinger/Assets/Animations/FBX/Frank_RPG_Gunslinger_Run01.FBX using Guid(66fa6b7e536863540ab43d3a171280be) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '1ef7f695bd9a2250b352585a124d21e9') in 0.027118 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 182
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Frank_RPG_Gunslinger/Assets
+  artifactKey: Guid(175dff04c58e8484c9e39b6d84ad62fb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Frank_RPG_Gunslinger/Assets using Guid(175dff04c58e8484c9e39b6d84ad62fb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'c322c6e5939edbd19fa2420e49688ce1') in 0.012964 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Frank_RPG_Gunslinger/Assets/Animations/FBX/Frank_RPG_Gunslinger_Run07_Dual_Aim_Velocity.FBX
+  artifactKey: Guid(c51808a99913cfa46bb5555e61650de8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Frank_RPG_Gunslinger/Assets/Animations/FBX/Frank_RPG_Gunslinger_Run07_Dual_Aim_Velocity.FBX using Guid(c51808a99913cfa46bb5555e61650de8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'ee139edced90f702370925bdaf9ef90a') in 0.028790 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 182
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Frank_RPG_Gunslinger/Assets/Animations/FBX/Frank_RPG_Gunslinger_Attack02.FBX
+  artifactKey: Guid(c477025b19b6daa4689605c216462946) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Frank_RPG_Gunslinger/Assets/Animations/FBX/Frank_RPG_Gunslinger_Attack02.FBX using Guid(c477025b19b6daa4689605c216462946) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'bc5f8329e3fdf6fb4a286acec5375eca') in 0.030387 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 182
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Frank_RPG_Gunslinger/Assets/Animations/FBX/Frank_RPG_Gunslinger_Hit_Knockback.FBX
+  artifactKey: Guid(dbc0279f3de080a42b1e7fe678afbea9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Frank_RPG_Gunslinger/Assets/Animations/FBX/Frank_RPG_Gunslinger_Hit_Knockback.FBX using Guid(dbc0279f3de080a42b1e7fe678afbea9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '643f86328eb0945f3fd0d7f42de04c1c') in 0.028495 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 182
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Frank_RPG_Gunslinger/Assets/Animations/FBX/Frank_RPG_Gunslinger_Die.FBX
+  artifactKey: Guid(241853b59e9b2c04e9f5c7e67622acaa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Frank_RPG_Gunslinger/Assets/Animations/FBX/Frank_RPG_Gunslinger_Die.FBX using Guid(241853b59e9b2c04e9f5c7e67622acaa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'd372fdf0865be9e29bd6598c87a3c84e') in 0.029517 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 182
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Frank_RPG_Gunslinger/Assets/Animations/FBX/Frank_RPG_Gunslinger_8Way_Walk_FL.FBX
+  artifactKey: Guid(91463ee3150b6bc49830d691fb665611) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Frank_RPG_Gunslinger/Assets/Animations/FBX/Frank_RPG_Gunslinger_8Way_Walk_FL.FBX using Guid(91463ee3150b6bc49830d691fb665611) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '0100c76247af632177458b86185917be') in 0.030246 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 182
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Frank_RPG_Gunslinger/Assets/Animations/FBX/Frank_RPG_Gunslinger_Skill02.FBX
+  artifactKey: Guid(644f1bbc8d4f2d54a87a7501bc5daa86) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Frank_RPG_Gunslinger/Assets/Animations/FBX/Frank_RPG_Gunslinger_Skill02.FBX using Guid(644f1bbc8d4f2d54a87a7501bc5daa86) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'ee615c65548bd9c53746dcade431d5a5') in 0.036421 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 182
+========================================================================
+Received Import Request.
+  Time since last request: 120.803250 seconds.
+  path: Assets/Frank_RPG_Gunslinger/Assets/Materials/Frank_Gunslinger_Body.mat
+  artifactKey: Guid(ee0bb8433c10d1b48bdcd78bd220e832) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Frank_RPG_Gunslinger/Assets/Materials/Frank_Gunslinger_Body.mat using Guid(ee0bb8433c10d1b48bdcd78bd220e832) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '931b3da6a98bedf75422c9e71dc2723d') in 0.833649 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 21.108657 seconds.
+  path: Assets/Frank_RPG_Gunslinger/Assets/Animations/FBX/Frank_RPG_Gunslinger_8Way_Run_BR.FBX
+  artifactKey: Guid(e67f9a5c9c67d4541ad2f7f552ff40ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Frank_RPG_Gunslinger/Assets/Animations/FBX/Frank_RPG_Gunslinger_8Way_Run_BR.FBX using Guid(e67f9a5c9c67d4541ad2f7f552ff40ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88df2102b0edc10e86fa802ca030aa0e') in 0.011062 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 181
+========================================================================
+Received Import Request.
+  Time since last request: 0.000086 seconds.
+  path: Assets/Frank_RPG_Gunslinger/Assets/Animations/FBX/Frank_RPG_Gunslinger_Attack04.FBX
+  artifactKey: Guid(f2116060390e41641ad1a9ddd994831d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Frank_RPG_Gunslinger/Assets/Animations/FBX/Frank_RPG_Gunslinger_Attack04.FBX using Guid(f2116060390e41641ad1a9ddd994831d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '859cf52000fb716e910cde08022f07f1') in 0.010957 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 181
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Frank_RPG_Gunslinger/Assets/Animations/FBX/Frank_RPG_Gunslinger_Attack02.FBX
+  artifactKey: Guid(c477025b19b6daa4689605c216462946) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Frank_RPG_Gunslinger/Assets/Animations/FBX/Frank_RPG_Gunslinger_Attack02.FBX using Guid(c477025b19b6daa4689605c216462946) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c69a09b197d59846e68e0d9bc0083c22') in 0.007713 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 181
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Frank_RPG_Gunslinger/Assets/Animations/FBX/Frank_RPG_Gunslinger_AirCombo01_All.FBX
+  artifactKey: Guid(f85ac386a76329a4dad8a8244954e54a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Frank_RPG_Gunslinger/Assets/Animations/FBX/Frank_RPG_Gunslinger_AirCombo01_All.FBX using Guid(f85ac386a76329a4dad8a8244954e54a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd921ab1609245e724fb55fb15b9fe717') in 0.009991 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 181
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Frank_RPG_Gunslinger/Assets/Animations/FBX/Frank_RPG_Gunslinger_Crouch_end.FBX
+  artifactKey: Guid(6cb78edd106654846855fa3c70fcc622) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Frank_RPG_Gunslinger/Assets/Animations/FBX/Frank_RPG_Gunslinger_Crouch_end.FBX using Guid(6cb78edd106654846855fa3c70fcc622) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f2feafb4fe31d91b6526fe1d95580b2') in 0.004720 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 181
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Frank_RPG_Gunslinger/Assets/Animations/FBX/Frank_RPG_Gunslinger_Equip.FBX
+  artifactKey: Guid(adcd5469d6a83d146b9d5f51e1a90e0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Frank_RPG_Gunslinger/Assets/Animations/FBX/Frank_RPG_Gunslinger_Equip.FBX using Guid(adcd5469d6a83d146b9d5f51e1a90e0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec071f98e13f5417c4e3853614456294') in 0.008866 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 181
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Frank_RPG_Gunslinger/Assets/Animations/FBX/Frank_RPG_Gunslinger_Combo02_All.FBX
+  artifactKey: Guid(e7615263884447e40821f25324b9947c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Frank_RPG_Gunslinger/Assets/Animations/FBX/Frank_RPG_Gunslinger_Combo02_All.FBX using Guid(e7615263884447e40821f25324b9947c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c41a85274953cb6e1ce5d3644631e04b') in 0.012645 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 181
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Frank_RPG_Gunslinger/Assets/Animations/FBX/Frank_RPG_Gunslinger_Combo01_All.FBX
+  artifactKey: Guid(e904da0d1d17462488ed7e2f1491419e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Frank_RPG_Gunslinger/Assets/Animations/FBX/Frank_RPG_Gunslinger_Combo01_All.FBX using Guid(e904da0d1d17462488ed7e2f1491419e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '589e2196e9fedd8e77a546cae2d12dc2') in 0.009053 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 181
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Frank_RPG_Gunslinger/Assets/Animations/FBX/Frank_RPG_Gunslinger_8Way_Walk_BR.FBX
+  artifactKey: Guid(39c19893f487e3d4498cbd4a54f860e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Frank_RPG_Gunslinger/Assets/Animations/FBX/Frank_RPG_Gunslinger_8Way_Walk_BR.FBX using Guid(39c19893f487e3d4498cbd4a54f860e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffc13e9a0e6d236b7faa9dbaa34760e1') in 0.006355 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 181
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Frank_RPG_Gunslinger/Assets/Animations/FBX/Frank_RPG_Gunslinger_Guard.FBX
+  artifactKey: Guid(06bffdabdedf6884e8c93da79d79e7f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Frank_RPG_Gunslinger/Assets/Animations/FBX/Frank_RPG_Gunslinger_Guard.FBX using Guid(06bffdabdedf6884e8c93da79d79e7f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53271607aa5a20aaaa958ba0134365bb') in 0.006095 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 181
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Frank_RPG_Gunslinger/Assets/Animations/FBX/Frank_RPG_Gunslinger_Skill01.FBX
+  artifactKey: Guid(9a822e9f2d2f7c146a3c9a53c83b1ada) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Frank_RPG_Gunslinger/Assets/Animations/FBX/Frank_RPG_Gunslinger_Skill01.FBX using Guid(9a822e9f2d2f7c146a3c9a53c83b1ada) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a191d056449ced374cffb24271d93648') in 0.009740 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 181
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Frank_RPG_Gunslinger/Assets/Animations/FBX/Frank_RPG_Gunslinger_Run07_Dual_Aim_Velocity.FBX
+  artifactKey: Guid(c51808a99913cfa46bb5555e61650de8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Frank_RPG_Gunslinger/Assets/Animations/FBX/Frank_RPG_Gunslinger_Run07_Dual_Aim_Velocity.FBX using Guid(c51808a99913cfa46bb5555e61650de8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed9a60fad0a098ca52e59ab780b79db8') in 0.005669 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 181
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Frank_RPG_Gunslinger/Assets/Animations/FBX/Frank_RPG_Gunslinger_Block.FBX
+  artifactKey: Guid(7a3125fc150a92f4586c04b191cff96c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Frank_RPG_Gunslinger/Assets/Animations/FBX/Frank_RPG_Gunslinger_Block.FBX using Guid(7a3125fc150a92f4586c04b191cff96c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '683bdc423c530bec9d5cf61cea1b8b7c') in 0.005559 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 181
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Frank_RPG_Gunslinger/Assets/Animations/FBX/Frank_RPG_Gunslinger_Crouch_Idle.FBX
+  artifactKey: Guid(450feb8103692b24e9abe798043d4ccb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Frank_RPG_Gunslinger/Assets/Animations/FBX/Frank_RPG_Gunslinger_Crouch_Idle.FBX using Guid(450feb8103692b24e9abe798043d4ccb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52fc4882c4ab7865c97d7d1baa9b0592') in 0.006432 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 181
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Frank_RPG_Gunslinger/Assets/Animations/FBX/Frank_RPG_Gunslinger_Unequip_Idle.FBX
+  artifactKey: Guid(47af83c6a4e111b40b842d7bd94c28d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Frank_RPG_Gunslinger/Assets/Animations/FBX/Frank_RPG_Gunslinger_Unequip_Idle.FBX using Guid(47af83c6a4e111b40b842d7bd94c28d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a9ac6f8579522e4e7a5df75e00b7d6a') in 0.007252 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 181
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Frank_RPG_Gunslinger/Assets/Animations/FBX/Frank_RPG_Gunslinger_Run07_Dual_Aim.FBX
+  artifactKey: Guid(6261d4e960e62304d9ecd9c08fd1e25d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Frank_RPG_Gunslinger/Assets/Animations/FBX/Frank_RPG_Gunslinger_Run07_Dual_Aim.FBX using Guid(6261d4e960e62304d9ecd9c08fd1e25d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a8e05a2ffe39f8f687c0f561f6f5b51') in 0.005836 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 181
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Frank_RPG_Gunslinger/Assets/Animations/FBX/Frank_RPG_Gunslinger_Rifle_Fire.FBX
+  artifactKey: Guid(42e6c9f7751ab984fa1fca4b057b47a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Frank_RPG_Gunslinger/Assets/Animations/FBX/Frank_RPG_Gunslinger_Rifle_Fire.FBX using Guid(42e6c9f7751ab984fa1fca4b057b47a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65fb92045f17bb685935ba58a62108f3') in 0.008245 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 181
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/Frank_RPG_Gunslinger/Assets/Animations/FBX/Frank_RPG_Gunslinger_8Way_Walk_B.FBX
+  artifactKey: Guid(fc3a7f3f1bd8c884fb4677eafa6b7832) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Frank_RPG_Gunslinger/Assets/Animations/FBX/Frank_RPG_Gunslinger_8Way_Walk_B.FBX using Guid(fc3a7f3f1bd8c884fb4677eafa6b7832) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19e2a49f3f47c8a9d116a5aed9b9f857') in 0.005985 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 181
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Frank_RPG_Gunslinger/Assets/Animations/FBX/Frank_RPG_Gunslinger_Run03_Faster.FBX
+  artifactKey: Guid(c5bb58326087c9443936ad8b340db931) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Frank_RPG_Gunslinger/Assets/Animations/FBX/Frank_RPG_Gunslinger_Run03_Faster.FBX using Guid(c5bb58326087c9443936ad8b340db931) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33d1dd10f48469c642e0571ac10801c6') in 0.006198 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 181
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Frank_RPG_Gunslinger/Assets/Animations/FBX/Frank_RPG_Gunslinger_Evade_L.FBX
+  artifactKey: Guid(3aeb45efdfa6ec048ac08f0a7957c216) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Frank_RPG_Gunslinger/Assets/Animations/FBX/Frank_RPG_Gunslinger_Evade_L.FBX using Guid(3aeb45efdfa6ec048ac08f0a7957c216) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65e5a290da2eef9eafabf3048491ebd3') in 0.006616 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 181
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Frank_RPG_Gunslinger/Assets/Animations/FBX/Frank_RPG_Gunslinger_Evade_R.FBX
+  artifactKey: Guid(41dcb99825fc40a49a7ccb8de2d9cbc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Frank_RPG_Gunslinger/Assets/Animations/FBX/Frank_RPG_Gunslinger_Evade_R.FBX using Guid(41dcb99825fc40a49a7ccb8de2d9cbc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ece4b6bf742e37e5ceda3e41592ea9d') in 0.005054 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 181
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Frank_RPG_Gunslinger/Assets/Animations/FBX/Frank_RPG_Gunslinger_Attack01.FBX
+  artifactKey: Guid(3dcb186b33b86984c842e1b23d27053f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Frank_RPG_Gunslinger/Assets/Animations/FBX/Frank_RPG_Gunslinger_Attack01.FBX using Guid(3dcb186b33b86984c842e1b23d27053f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed43b25f7dccc2134ab46456ab605ad0') in 0.006156 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 181
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Frank_RPG_Gunslinger/Assets/Animations/FBX/Frank_RPG_Gunslinger_Run01_Velocity.FBX
+  artifactKey: Guid(9168166af8403684d9c8867fc818c2e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Frank_RPG_Gunslinger/Assets/Animations/FBX/Frank_RPG_Gunslinger_Run01_Velocity.FBX using Guid(9168166af8403684d9c8867fc818c2e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14dc8e25b7a80416cf007f588d3b7b81') in 0.005424 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 181
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Frank_RPG_Gunslinger/Assets/Animations/FBX/Frank_RPG_Gunslinger_Step_F.FBX
+  artifactKey: Guid(6c203ff24ee6e6e4495e5996ea30be94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Frank_RPG_Gunslinger/Assets/Animations/FBX/Frank_RPG_Gunslinger_Step_F.FBX using Guid(6c203ff24ee6e6e4495e5996ea30be94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '740df38539c5f09f3cc6959d267f14cf') in 0.007226 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 181
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Frank_RPG_Gunslinger/Assets/Animations/FBX/Frank_RPG_Gunslinger_Equip_Idle.FBX
+  artifactKey: Guid(3f3d651f38b54ef4abbe402ed0a73127) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Frank_RPG_Gunslinger/Assets/Animations/FBX/Frank_RPG_Gunslinger_Equip_Idle.FBX using Guid(3f3d651f38b54ef4abbe402ed0a73127) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78dbd23b73000b47e26c7463cbd7fbad') in 0.016990 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 181
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/Frank_RPG_Gunslinger/Assets/Animations/FBX/Frank_RPG_Gunslinger_Jump_01.FBX
+  artifactKey: Guid(5ca2b98c523a3024083e03b92861699a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Frank_RPG_Gunslinger/Assets/Animations/FBX/Frank_RPG_Gunslinger_Jump_01.FBX using Guid(5ca2b98c523a3024083e03b92861699a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ebf536c17a1164871f3f548a5704bda') in 0.007510 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 181
+========================================================================
+Received Import Request.
+  Time since last request: 64.673692 seconds.
+  path: Assets/Frank_RPG_Gunslinger/Assets/Meshes/akai_e_espiritu.fbx
+  artifactKey: Guid(e6ae89ab60f8d9b479ec48fb2c2a4fb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Frank_RPG_Gunslinger/Assets/Meshes/akai_e_espiritu.fbx using Guid(e6ae89ab60f8d9b479ec48fb2c2a4fb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c143a113e0e627ecbf1dcc63c2dd1ab') in 0.124548 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 143
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Frank_RPG_Gunslinger/Assets/Meshes/Frank_Gunslinger_Mask.mask
+  artifactKey: Guid(3ebae4593fc1e9747a1c6036fbddb9f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Frank_RPG_Gunslinger/Assets/Meshes/Frank_Gunslinger_Mask.mask using Guid(3ebae4593fc1e9747a1c6036fbddb9f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd49353b07819df4501ee00ea7ce2612') in 0.001549 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Frank_RPG_Gunslinger/Assets/Meshes/Frank_Gunslinger_Skin.FBX
+  artifactKey: Guid(4c89d8affd612674b9c238ff8651667e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Frank_RPG_Gunslinger/Assets/Meshes/Frank_Gunslinger_Skin.FBX using Guid(4c89d8affd612674b9c238ff8651667e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d3e401914c4a06ae0034d284ec4deb5') in 0.210888 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 218
+========================================================================
+Received Import Request.
+  Time since last request: 25.836818 seconds.
+  path: Assets/Frank_RPG_Gunslinger/Assets/Meshes/Frank_Gunslinger_Skin.FBX
+  artifactKey: Guid(4c89d8affd612674b9c238ff8651667e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Frank_RPG_Gunslinger/Assets/Meshes/Frank_Gunslinger_Skin.FBX using Guid(4c89d8affd612674b9c238ff8651667e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12e6831f180eabd1539b036aa59d3f07') in 0.189999 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 218
+========================================================================
+Received Import Request.
+  Time since last request: 0.751032 seconds.
+  path: Assets/Frank_RPG_Gunslinger/Assets/Meshes/akai_e_espiritu.fbx
+  artifactKey: Guid(e6ae89ab60f8d9b479ec48fb2c2a4fb0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Frank_RPG_Gunslinger/Assets/Meshes/akai_e_espiritu.fbx using Guid(e6ae89ab60f8d9b479ec48fb2c2a4fb0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '41d672b772b7fafa6b340bd3cf57128e') in 0.039830 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 141
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Frank_RPG_Gunslinger/Assets/Materials/Frank_Gunslinger_Shell_Color.mat
+  artifactKey: Guid(4eb638a082546ea489bee26ebbd86878) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Frank_RPG_Gunslinger/Assets/Materials/Frank_Gunslinger_Shell_Color.mat using Guid(4eb638a082546ea489bee26ebbd86878) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '52aefbb763722240cb9f1d460c1de341') in 0.013368 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Frank_RPG_Gunslinger/Assets/Materials/Frank_Gunslinger_Body.mat
+  artifactKey: Guid(ee0bb8433c10d1b48bdcd78bd220e832) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Frank_RPG_Gunslinger/Assets/Materials/Frank_Gunslinger_Body.mat using Guid(ee0bb8433c10d1b48bdcd78bd220e832) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'db43ade05b36e6a48b2a8caf8f679f28') in 0.017141 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Frank_RPG_Gunslinger/Assets/Materials/Frank_Gunslinger_Gunfire.mat
+  artifactKey: Guid(faf8018114f0e9d48983c642a8ae8948) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Frank_RPG_Gunslinger/Assets/Materials/Frank_Gunslinger_Gunfire.mat using Guid(faf8018114f0e9d48983c642a8ae8948) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '500d89df9a071ae34aa99b1eed725473') in 0.013746 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 8.919776 seconds.
+  path: Assets/Frank_RPG_Gunslinger/Assets/Materials/Frank_Gunslinger_Body.mat
+  artifactKey: Guid(ee0bb8433c10d1b48bdcd78bd220e832) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Frank_RPG_Gunslinger/Assets/Materials/Frank_Gunslinger_Body.mat using Guid(ee0bb8433c10d1b48bdcd78bd220e832) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '634772c2f464f5f6776815aeffd1db47') in 0.028611 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Frank_RPG_Gunslinger/Assets/Materials/Frank_Gunslinger_Silver.mat
+  artifactKey: Guid(d278ac75b042c694db9b2442ef996432) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Frank_RPG_Gunslinger/Assets/Materials/Frank_Gunslinger_Silver.mat using Guid(d278ac75b042c694db9b2442ef996432) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7e7600afe14ab8a587b10cf915dafd1') in 0.030138 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Frank_RPG_Gunslinger/Assets/Materials/Frank_Gunslinger_Gunfire.mat
+  artifactKey: Guid(faf8018114f0e9d48983c642a8ae8948) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Frank_RPG_Gunslinger/Assets/Materials/Frank_Gunslinger_Gunfire.mat using Guid(faf8018114f0e9d48983c642a8ae8948) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30e40368afceb01253fda1ba1b7d98d2') in 0.021856 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Frank_RPG_Gunslinger/Assets/Materials/Frank_Gunslinger_Tan.mat
+  artifactKey: Guid(c29ed48363a3387448f258c87938e098) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Frank_RPG_Gunslinger/Assets/Materials/Frank_Gunslinger_Tan.mat using Guid(c29ed48363a3387448f258c87938e098) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b36d0ec68f5791f4fdb6c49f2618d0fc') in 0.023275 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: Bir iþ parçacýðý çýkýþý veya bir uygulama isteði nedeniyle G/Ç iþlemi iptal edildi.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

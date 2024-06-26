@@ -68,6 +68,9 @@
     <Compile Include="Assets\Scripts\Charecter\PlayerCameraContoller.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Assets\Frank_RPG_Gunslinger\Documentation\Frank_Gunslinger_MotionList.txt" />
+  </ItemGroup>
+  <ItemGroup>
     <Reference Include="UnityEngine">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.22f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
       <Private>False</Private>
