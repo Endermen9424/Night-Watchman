@@ -5224,7 +5224,7 @@ Animator:
   m_GameObject: {fileID: 372525944048030230}
   m_Enabled: 1
   m_Avatar: {fileID: 9000000, guid: b8a7488d12adc39498433d60811eab1a, type: 3}
-  m_Controller: {fileID: 9100000, guid: 2f827b4b92a00964b89abbbb7ad027ec, type: 2}
+  m_Controller: {fileID: 9100000, guid: e6ec40f7b156c5f4ab527feed4ffb0d1, type: 2}
   m_CullingMode: 1
   m_UpdateMode: 0
   m_ApplyRootMotion: 1
@@ -5270,6 +5270,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 24429833a3afa32408d6eaa77a5d2ab7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  animator: {fileID: 6377244575682269910}
   Camera: {fileID: 1823688464}
   maxLookUp: -60
   minLookUp: 60

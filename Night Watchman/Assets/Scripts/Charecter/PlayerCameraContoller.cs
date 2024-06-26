@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class PlayerCameraContoller : MonoBehaviour
 {
+    [SerializeField] Animator animator;
+
     [SerializeField] GameObject Camera;
     [SerializeField] float maxLookUp = -60f;
     [SerializeField] float minLookUp = 60f;
@@ -32,5 +34,10 @@ public class PlayerCameraContoller : MonoBehaviour
 
         Camera.transform.rotation = Quaternion.Euler(rotcamera);
         transform.rotation = Quaternion.Euler(rotplayer);
+
+        if (Input.GetMouseButtonDown(0)) {
+            animator.SetBool("Shoot", true);
+            animator.SetBool("Shoot", false);
+        }
     }
 }
