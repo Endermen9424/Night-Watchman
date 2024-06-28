@@ -66,6 +66,7 @@
   <ItemGroup>
     <Compile Include="Assets\TutorialInfo\Scripts\Readme.cs" />
     <Compile Include="Assets\Scripts\Charecter\PlayerCameraContoller.cs" />
+    <Compile Include="Assets\Scripts\Weapon\Pistol.cs" />
     <Compile Include="Assets\Scripts\Weapon\Weapon.cs" />
   </ItemGroup>
   <ItemGroup>
