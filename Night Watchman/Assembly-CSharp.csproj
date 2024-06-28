@@ -66,6 +66,7 @@
   <ItemGroup>
     <Compile Include="Assets\TutorialInfo\Scripts\Readme.cs" />
     <Compile Include="Assets\Scripts\Charecter\PlayerCameraContoller.cs" />
+    <Compile Include="Assets\Scripts\Weapon\Weapon.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Frank_RPG_Gunslinger\Documentation\Frank_Gunslinger_MotionList.txt" />
