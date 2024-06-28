@@ -2191,6 +2191,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3661529893371807770}
+  - component: {fileID: 3661529893371807771}
   m_Layer: 0
   m_Name: Pistol 2
   m_TagString: Untagged
@@ -3246,6 +3247,21 @@ Transform:
   - {fileID: 6659764960728062494}
   m_Father: {fileID: 6237177819571322739}
   m_LocalEulerAnglesHint: {x: -151.773, y: 103.625, z: 74.313}
+--- !u!114 &3661529893371807771
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2170888561212509707}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 01e1def6c2dab4d48a377170f197a052, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  particle: {fileID: 2847906801061635960, guid: a1c509de7deadcb45a4cbe684e808bfb,
+    type: 3}
+  cam: {fileID: 1823688464}
 --- !u!1 &3661660938741233962
 GameObject:
   m_ObjectHideFlags: 0
