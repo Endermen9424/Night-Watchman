@@ -29,7 +29,7 @@ public class PlayerCameraContoller : MonoBehaviour
         rotcamera.x -= rotateY;
 
         rotplayer.y = (rotplayer.y > 180) ? rotplayer.y -360 : rotplayer.y;
-        rotplayer.y = Mathf.Clamp(rotplayer.y, transform.rotation.y + maxLookLeft, transform.rotation.y + maxLookRight);
+        rotplayer.y = Mathf.Clamp(rotplayer.y, maxLookLeft, maxLookRight);
         rotplayer.y += rotateX;
 
         Camera.transform.rotation = Quaternion.Euler(rotcamera);

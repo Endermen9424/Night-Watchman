@@ -9,7 +9,7 @@ public class Weapon : MonoBehaviour
 
     protected bool auto = false;
     protected float cooldown = 0;
-    private float timer;
+    protected float timer;
 
     private void Start() {
         timer = cooldown;
