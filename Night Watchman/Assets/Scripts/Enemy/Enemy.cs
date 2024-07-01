@@ -4,18 +4,20 @@ using UnityEngine;
 
 public class Enemy : MonoBehaviour
 {
-    [SerializeField] float health = 100;
+    [SerializeField] protected float health = 100;
 
-    [SerializeField] float speed = 5;
-    [SerializeField] Animator anim;
+    [SerializeField] protected float speed = 5;
+    [SerializeField] protected Animator anim;
 
     protected float cooldown = 0;
     protected float timer;
 
-    float distance;
-    float attackdistance;
+    protected float distance;
+    protected float attackdistance;
 
-    GameObject player;
+    [SerializeField] protected Rigidbody rb;
+
+    protected GameObject player;
 
     protected virtual void Start() {
         timer = cooldown;
