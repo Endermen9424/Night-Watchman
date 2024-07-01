@@ -23,6 +23,7 @@ public class Enemy : MonoBehaviour
         timer = cooldown;
 
         player = GameObject.FindGameObjectWithTag("Player");
+        print(player);
     }
 
     protected void Update() {
