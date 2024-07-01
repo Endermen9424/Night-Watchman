@@ -326,7 +326,7 @@ Material:
     - _RenderQueueType: 1
     - _RequireSplitLighting: 0
     - _Smoothness: 0.5
-    - _SmoothnessRemapMax: 1
+    - _SmoothnessRemapMax: 0.38356167
     - _SmoothnessRemapMin: 0
     - _SmoothnessTextureChannel: 1
     - _SpecularAAScreenSpaceVariance: 0.1
@@ -348,6 +348,15 @@ Material:
     - _SupportDecals: 0
     - _SurfaceType: 0
     - _TRANSPARENCY_WEIGHT: 1
+    - _TessellationBackFaceCullEpsilon: -0.25
+    - _TessellationFactor: 4
+    - _TessellationFactorMaxDistance: 50
+    - _TessellationFactorMinDistance: 20
+    - _TessellationFactorTriangleSize: 100
+    - _TessellationMode: 0
+    - _TessellationObjectScale: 1
+    - _TessellationShapeFactor: 0.75
+    - _TessellationTilingScale: 1
     - _TexWorldScale: 1
     - _TexWorldScaleEmissive: 1
     - _Thickness: 1
