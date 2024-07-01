@@ -13,7 +13,7 @@ public class Enemy : MonoBehaviour
     protected float timer;
 
     protected float distance;
-    protected float attackdistance;
+    [SerializeField] protected float attackdistance;
 
     [SerializeField] protected Rigidbody rb;
 
@@ -25,9 +25,11 @@ public class Enemy : MonoBehaviour
         player = GameObject.FindGameObjectWithTag("Player");
     }
 
-    private void Update() {
+    protected void Update() {
         timer += Time.deltaTime;
         distance = Mathf.Abs(transform.position.x - gameObject.transform.position.x);
+
+        print(distance);
 
         if (distance <= attackdistance) {
             Attack();
