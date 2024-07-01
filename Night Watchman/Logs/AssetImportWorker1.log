@@ -185,3 +185,166 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 437837.290419 seconds.
+  path: Assets/Adventure_Character/Materials/Stand.mat
+  artifactKey: Guid(6cc77a6303488d84aadaf60ef4023104) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Adventure_Character/Materials/Stand.mat using Guid(6cc77a6303488d84aadaf60ef4023104) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebd61bafd863df439434b947a1584090') in 1.206407 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.210 seconds
+Refreshing native plugins compatible for Editor in 3.89 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  6.709 seconds
+Domain Reload Profiling: 7914ms
+	BeginReloadAssembly (414ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (53ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (118ms)
+	RebuildCommonClasses (65ms)
+	RebuildNativeTypeToScriptingClass (28ms)
+	initialDomainReloadingComplete (55ms)
+	LoadAllAssembliesAndSetupDomain (642ms)
+		LoadAssemblies (580ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (235ms)
+			TypeCache.Refresh (189ms)
+				TypeCache.ScanAssembly (169ms)
+			ScanForSourceGeneratedMonoScriptInfo (30ms)
+			ResolveRequiredComponents (14ms)
+	FinalizeReload (6710ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (560ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (34ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (87ms)
+			ProcessInitializeOnLoadAttributes (396ms)
+			ProcessInitializeOnLoadMethodAttributes (29ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (46ms)
+Shader 'Universal Render Pipeline/Nature/SpeedTree7': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Universal Render Pipeline/Nature/SpeedTree7': dependency 'BillboardShader' shader 'Universal Render Pipeline/Nature/SpeedTree7 Billboard' not found
+Shader 'Universal Render Pipeline/Baked Lit': fallback shader 'Universal Render Pipeline/Unlit' not found
+Shader 'Universal Render Pipeline/Simple Lit': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Universal Render Pipeline/Terrain/Lit': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Universal Render Pipeline/Terrain/Lit': dependency 'AddPassShader' shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Add Pass)' not found
+Shader 'Universal Render Pipeline/Terrain/Lit': dependency 'BaseMapShader' shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Base Pass)' not found
+Shader 'Universal Render Pipeline/Terrain/Lit': dependency 'BaseMapGenShader' shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Basemap Gen)' not found
+Shader 'Universal Render Pipeline/Nature/SpeedTree8': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Add Pass)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Base Pass)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Refreshing native plugins compatible for Editor in 3.95 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6392 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 141 unused Assets / (9.6 MB). Loaded Objects now: 7299.
+Memory consumption went from 369.9 MB to 360.4 MB.
+Total: 8.354400 ms (FindLiveObjects: 0.649800 ms CreateObjectMapping: 0.585000 ms MarkObjects: 3.483200 ms  DeleteObjects: 3.634900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 760.679343 seconds.
+  path: Assets/Adventure_Character/Materials/Man_Body_MaskMap.png
+  artifactKey: Guid(1828300a58b3bfe4abaddad5a7d734df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Adventure_Character/Materials/Man_Body_MaskMap.png using Guid(1828300a58b3bfe4abaddad5a7d734df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1881480ee8cef545e87f9b8f92253fc1') in 0.130456 seconds
+Number of updated asset objects reloaded before import = 7
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Adventure_Character/Materials/Man_Cloth_Up_02.mat
+  artifactKey: Guid(1fa5b2a9d37f61244aefcdac8092f401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Adventure_Character/Materials/Man_Cloth_Up_02.mat using Guid(1fa5b2a9d37f61244aefcdac8092f401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a63c508d387284760af704a10bd8df9d') in 2.777142 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 74
+========================================================================
+Received Import Request.
+  Time since last request: 0.000085 seconds.
+  path: Assets/Adventure_Character/Materials/Man_Cloth_Up_03_MaskMap.png
+  artifactKey: Guid(a67b767f0aa7a3a408fde711aa909d69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Adventure_Character/Materials/Man_Cloth_Up_03_MaskMap.png using Guid(a67b767f0aa7a3a408fde711aa909d69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56683b607dd6f60bcf7d30e01f47703d') in 0.031847 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Adventure_Character/Materials/Man_Cloth_Down_03.mat
+  artifactKey: Guid(a3c5be1a8d065a44ba4ad43c3c18b64e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Adventure_Character/Materials/Man_Cloth_Down_03.mat using Guid(a3c5be1a8d065a44ba4ad43c3c18b64e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ab03cedd5c9706c149de79aac00be0c') in 0.208713 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/Adventure_Character/Materials/Man_Cloth_Up_01_MaskMap.png
+  artifactKey: Guid(30c79c7763f33214791e903b409b1aea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Adventure_Character/Materials/Man_Cloth_Up_01_MaskMap.png using Guid(30c79c7763f33214791e903b409b1aea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cba9eedcde334667cd2c3e663c651745') in 0.028627 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/Adventure_Character/Materials/Man_Cloth_Down_01_MaskMap.png
+  artifactKey: Guid(ceffaf6107301e64e9f4fb9378d33896) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Adventure_Character/Materials/Man_Cloth_Down_01_MaskMap.png using Guid(ceffaf6107301e64e9f4fb9378d33896) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eeb3944c77e600653b79cdcd6b9f94a2') in 0.024298 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Adventure_Character/Materials/Man_Cloth_Up_02_MaskMap.png
+  artifactKey: Guid(b2ae548f3eaa38a48aa018e127de1e00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Adventure_Character/Materials/Man_Cloth_Up_02_MaskMap.png using Guid(b2ae548f3eaa38a48aa018e127de1e00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac5eb9ecb2ab17e60d7781ce77b415bc') in 0.025220 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Adventure_Character/Materials/Man_Cloth_Down_02_MaskMap.png
+  artifactKey: Guid(7d1b16d9f92d55145989954f3213e98f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Adventure_Character/Materials/Man_Cloth_Down_02_MaskMap.png using Guid(7d1b16d9f92d55145989954f3213e98f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8f3c7b830d4d094f5b00f04d5ae38b2') in 0.020590 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Adventure_Character/Materials/Man_Cloth_Up_01.mat
+  artifactKey: Guid(b2388b7cee621b040a376272b202b6bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Adventure_Character/Materials/Man_Cloth_Up_01.mat using Guid(b2388b7cee621b040a376272b202b6bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86c78e1a9b4e09189323bb12717b6e53') in 0.137090 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: Bir iþ parçacýðý çýkýþý veya bir uygulama isteði nedeniyle G/Ç iþlemi iptal edildi.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
