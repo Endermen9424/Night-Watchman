@@ -37,6 +37,7 @@ public class Enemy : MonoBehaviour
 
         if (distance <= attackdistance) {
             Attack();
+            rb.velocity = new Vector3(0, 0, 0);
         }
         else {
             Walk();
