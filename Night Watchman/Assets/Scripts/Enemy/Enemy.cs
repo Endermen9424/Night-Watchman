@@ -27,7 +27,10 @@ public class Enemy : MonoBehaviour
 
     protected void Update() {
         timer += Time.deltaTime;
-        distance = Mathf.Abs(transform.position.x - player.transform.position.x);
+        distance = transform.position.x - player.transform.position.x;
+        if (distance < 0) {
+            distance = -distance; // make it positive if enemy is to the left of player
+        }
 
         print(distance);
 
