@@ -5,6 +5,6 @@ using UnityEngine;
 public class WalkRobot : Enemy
 {
     protected override void Walk() {
-        rb.velocity = new Vector3(speed * Time.deltaTime, 0, 0);
+        rb.velocity = new Vector3(-speed, 0, 0);
     }
 }
