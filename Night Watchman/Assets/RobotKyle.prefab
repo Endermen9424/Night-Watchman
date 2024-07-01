@@ -1227,7 +1227,7 @@ GameObject:
   - component: {fileID: 1290734078237388360}
   m_Layer: 8
   m_Name: RobotKyle
-  m_TagString: Player
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1286,6 +1286,7 @@ MonoBehaviour:
   health: 100
   speed: 2
   anim: {fileID: 5615815007780928290}
+  attackdistance: 2
   rb: {fileID: 998396811154948142}
 --- !u!54 &998396811154948142
 Rigidbody:
