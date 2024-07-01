@@ -27,7 +27,7 @@ public class Enemy : MonoBehaviour
 
     protected void Update() {
         timer += Time.deltaTime;
-        distance = Mathf.Abs(transform.position.x - gameObject.transform.position.x);
+        distance = Mathf.Abs(transform.position.x - player.transform.position.x);
 
         print(distance);
 
