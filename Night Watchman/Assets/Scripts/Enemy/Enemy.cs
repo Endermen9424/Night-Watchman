@@ -25,10 +25,13 @@ public class Enemy : MonoBehaviour
 
     private void Update() {
         timer += Time.deltaTime;
-        distance = Vector3.Distance(transform.position, gameObject.transform.position);
+        distance = Mathf.Abs(transform.position.x - gameObject.transform.position.x);
 
         if (distance <= attackdistance) {
             Attack();
+        }
+        else {
+            Walk();
         }
     }
 
@@ -42,4 +45,6 @@ public class Enemy : MonoBehaviour
     }
 
     protected virtual void OnAttack() {}
+
+    protected virtual void Walk() {}
 }
