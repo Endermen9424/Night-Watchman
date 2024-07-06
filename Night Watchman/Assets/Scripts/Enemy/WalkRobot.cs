@@ -11,6 +11,6 @@ public class WalkRobot : Enemy
     protected override void OnAttack()
     {
         anim.SetBool("Attack", true);
-        Invoke("CloseAttack", 1);
+        Invoke("CloseAttack", 0.2f);
     }
 }
