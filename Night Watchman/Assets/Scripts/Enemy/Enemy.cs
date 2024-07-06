@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Data.Common;
 using UnityEngine;
 
 public class Enemy : MonoBehaviour
@@ -19,6 +20,9 @@ public class Enemy : MonoBehaviour
 
     protected GameObject player;
 
+    protected bool conditionMet;
+    protected bool coroutineRunning = false;
+
     protected virtual void Start() {
         Time.timeScale = 1;
         timer = cooldown;
@@ -27,18 +31,18 @@ public class Enemy : MonoBehaviour
         print(player);
     }
 
-    void Update() {
+    protected void Update() {
         timer += Time.deltaTime;
         distance = transform.position.x - player.transform.position.x;
         if (distance < 0) {
             distance = -distance; // make it positive if enemy is to the left of player
         }
 
-        print(distance);
-
-        if (distance <= attackdistance) {
+        if (distance <= attackdistance && !conditionMet && !coroutineRunning) {
             StartCoroutine(RunAttack());
             rb.velocity = new Vector3(0, 0, 0);
+            conditionMet = false;
+            coroutineRunning = true;
         }
         else {
             Walk();
@@ -66,7 +70,7 @@ public class Enemy : MonoBehaviour
     public IEnumerator RunAttack() {
         while(true) {
             Attack();
-            yield return new WaitForSeconds(1);
+            yield return new WaitForSeconds(1f);
         }
     } 
 }
