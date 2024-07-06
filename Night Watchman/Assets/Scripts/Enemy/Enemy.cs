@@ -37,7 +37,7 @@ public class Enemy : MonoBehaviour
         print(distance);
 
         if (distance <= attackdistance) {
-            Attack();
+            RunAttack();
             rb.velocity = new Vector3(0, 0, 0);
         }
         else {
@@ -61,5 +61,9 @@ public class Enemy : MonoBehaviour
     protected void CloseAttack()
     {
         anim.SetBool("Attack", false);
+    }
+
+    protected void RunAttack() {
+        Invoke("Attack", 1);
     }
 }
