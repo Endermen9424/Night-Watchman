@@ -7,4 +7,10 @@ public class WalkRobot : Enemy
     protected override void Walk() {
         rb.velocity = new Vector3(-speed, 0, 0);
     }
+
+    protected override void OnAttack()
+    {
+        anim.SetBool("Attack", true);
+        anim.SetBool("Attack", false);
+    }
 }
