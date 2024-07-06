@@ -20,13 +20,14 @@ public class Enemy : MonoBehaviour
     protected GameObject player;
 
     protected virtual void Start() {
+        Time.timeScale = 1;
         timer = cooldown;
 
         player = GameObject.FindGameObjectWithTag("Player");
         print(player);
     }
 
-    protected void Update() {
+    void Update() {
         timer += Time.deltaTime;
         distance = transform.position.x - player.transform.position.x;
         if (distance < 0) {
@@ -45,15 +46,20 @@ public class Enemy : MonoBehaviour
     }
 
     protected virtual void Attack() {
-        if (Time.timeScale >= 1) {
-            if (timer > cooldown) {
-                OnAttack();
-                timer = 0;
-            }
+        
+        if (timer > cooldown) {
+            OnAttack();
+            timer = 0;
         }
+        
     }
 
     protected virtual void OnAttack() {}
 
     protected virtual void Walk() {}
+
+    protected void CloseAttack()
+    {
+        anim.SetBool("Attack", false);
+    }
 }
