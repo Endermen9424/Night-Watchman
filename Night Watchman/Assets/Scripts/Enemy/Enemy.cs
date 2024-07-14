@@ -79,7 +79,7 @@ public class Enemy : MonoBehaviour
     public void ChangeHealth(float value) {
         health -= value;
         if (health <= 0) {
-            Time.timeScale = 0;
+            Destroy(gameObject);
         }
     }
 }
