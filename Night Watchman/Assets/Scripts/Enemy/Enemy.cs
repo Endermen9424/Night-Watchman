@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class Enemy : MonoBehaviour
 {
-    [SerializeField] protected float health = 100;
+    [SerializeField] public float health = 100;
 
     [SerializeField] protected float speed = 5;
     [SerializeField] protected Animator anim;
@@ -32,6 +32,8 @@ public class Enemy : MonoBehaviour
     }
 
     protected void Update() {
+        health = Mathf.Clamp(health, 0, health);
+
         timer += Time.deltaTime;
         distance = transform.position.x - player.transform.position.x;
         if (distance < 0) {
@@ -72,5 +74,12 @@ public class Enemy : MonoBehaviour
             Attack();
             yield return new WaitForSeconds(1f);
         }
-    } 
+    }
+
+    public void ChangeHealth(float value) {
+        health -= value;
+        if (health <= 0) {
+            Time.timeScale = 0;
+        }
+    }
 }
