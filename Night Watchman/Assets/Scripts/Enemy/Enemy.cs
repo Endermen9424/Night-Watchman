@@ -13,6 +13,8 @@ public class Enemy : MonoBehaviour
     protected float cooldown = 0;
     protected float timer;
 
+    protected float attackVelocity;
+
     protected float distance;
     [SerializeField] protected float attackdistance;
 
