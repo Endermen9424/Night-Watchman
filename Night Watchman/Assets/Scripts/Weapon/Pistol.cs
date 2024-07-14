@@ -20,6 +20,10 @@ public class Pistol : Weapon
         if (Physics.Raycast(ray, out hit)) {
             GameObject gameBullet = Instantiate(particle, hit.point, hit.transform.rotation);
 
+            if (hit.collider.CompareTag("Enemy")) {
+                hit.collider.GetComponent<Enemy>().ChangeHealth(20f);
+            }
+
             Destroy(gameBullet, 1f);
         }
     }
