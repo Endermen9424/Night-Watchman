@@ -1735,3 +1735,230 @@ AssetImportParameters requested are different than current active one (requested
   custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 437.273147 seconds.
+  path: Assets/Enemies/EnemyController.controller
+  artifactKey: Guid(ab51d8f0a63b42f4a87d4b215d51196b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemies/EnemyController.controller using Guid(ab51d8f0a63b42f4a87d4b215d51196b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b703ba95c5e9b73f8c978f0c907269a7') in 0.035555 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 14.488403 seconds.
+  path: Assets/Kevin Iglesias/Skeleton Animations
+  artifactKey: Guid(88d2984646bcb05469988d7b9106ed61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kevin Iglesias/Skeleton Animations using Guid(88d2984646bcb05469988d7b9106ed61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a1845777d7d7b37ef6aa36789a6c43f') in 0.001055 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.138439 seconds.
+  path: Assets/Kevin Iglesias/Skeleton Animations/Animations
+  artifactKey: Guid(80f55e782db56fc46995a0cfcfb9d8cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kevin Iglesias/Skeleton Animations/Animations using Guid(80f55e782db56fc46995a0cfcfb9d8cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed4d55be1a58ebdc9557b0c22e4764dd') in 0.000718 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Kevin Iglesias/Skeleton Animations/Animations/Skeleton@Idle01_Action02.fbx
+  artifactKey: Guid(83b0fbba86ac79a45a62e57f0efbe02c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kevin Iglesias/Skeleton Animations/Animations/Skeleton@Idle01_Action02.fbx using Guid(83b0fbba86ac79a45a62e57f0efbe02c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6342f9a95746c0878a7cd21990f9246') in 0.020990 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 129
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Kevin Iglesias/Skeleton Animations/Animations/Skeleton@Idle01_Action01.fbx
+  artifactKey: Guid(2634c0d39aeaa6744898d5b8b6dcfffa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kevin Iglesias/Skeleton Animations/Animations/Skeleton@Idle01_Action01.fbx using Guid(2634c0d39aeaa6744898d5b8b6dcfffa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c7a1ea743465b1be375c448c9ce806b') in 0.006131 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 129
+========================================================================
+Received Import Request.
+  Time since last request: 15.439747 seconds.
+  path: Assets/Kevin Iglesias/Skeleton Animations/Animations/Movement
+  artifactKey: Guid(ac6b84156e6b6964d8b39a444e76c125) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kevin Iglesias/Skeleton Animations/Animations/Movement using Guid(ac6b84156e6b6964d8b39a444e76c125) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a36fdb971f1280ac633568d9939a02a0') in 0.000752 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.781904 seconds.
+  path: Assets/Kevin Iglesias/Skeleton Animations/Animations/Combat
+  artifactKey: Guid(13ed09a6f2b317148a5711c4a85cdcba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kevin Iglesias/Skeleton Animations/Animations/Combat using Guid(13ed09a6f2b317148a5711c4a85cdcba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5248a54325bf5c4a974b327393cbf263') in 0.000705 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.022035 seconds.
+  path: Assets/Kevin Iglesias/Skeleton Animations/Animations/Combat/Skeleton@Attack01.fbx
+  artifactKey: Guid(0c16cb1c1956d6e4ab7756249d85d85c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kevin Iglesias/Skeleton Animations/Animations/Combat/Skeleton@Attack01.fbx using Guid(0c16cb1c1956d6e4ab7756249d85d85c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd93c24467d4ddc45c769847bea4d20e6') in 0.008212 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 129
+========================================================================
+Received Import Request.
+  Time since last request: 46.289417 seconds.
+  path: Assets/Kevin Iglesias/Skeleton Animations/Animations/Movement/Skeleton@Walk01.fbx
+  artifactKey: Guid(74640c8c77162bb40aab8b2fc995e156) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kevin Iglesias/Skeleton Animations/Animations/Movement/Skeleton@Walk01.fbx using Guid(74640c8c77162bb40aab8b2fc995e156) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e588a2c44c018f2f8ac1766f8e1662d') in 0.005255 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 129
+========================================================================
+Received Import Request.
+  Time since last request: 27.731763 seconds.
+  path: Assets/Kevin Iglesias/Skeleton Animations/AnimatorControllers
+  artifactKey: Guid(9d64a6f30b4e7d04d931f17e7e3b9679) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kevin Iglesias/Skeleton Animations/AnimatorControllers using Guid(9d64a6f30b4e7d04d931f17e7e3b9679) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b70fda6bbfa3fd04f7c48583d3060633') in 0.000731 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.933827 seconds.
+  path: Assets/Kevin Iglesias/Skeleton Animations/AnimatorControllers/Skeleton@Damages.controller
+  artifactKey: Guid(faca9af196b9d804abb5f63b24bd0196) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kevin Iglesias/Skeleton Animations/AnimatorControllers/Skeleton@Damages.controller using Guid(faca9af196b9d804abb5f63b24bd0196) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c18e98622c05ba506a12c3bba1a0897') in 0.001905 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 1.011333 seconds.
+  path: Assets/Kevin Iglesias/Skeleton Animations/AnimatorControllers/Skeleton@Deaths.controller
+  artifactKey: Guid(e09f360c42ea3ce409736bb4616687b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kevin Iglesias/Skeleton Animations/AnimatorControllers/Skeleton@Deaths.controller using Guid(e09f360c42ea3ce409736bb4616687b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1da90cd8b44b14ec893c1b62849fa156') in 0.002290 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.599306 seconds.
+  path: Assets/Kevin Iglesias/Skeleton Animations/AnimatorControllers/Skeleton@Idle.controller
+  artifactKey: Guid(f893d78148eef4541b5a78c4b4571608) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kevin Iglesias/Skeleton Animations/AnimatorControllers/Skeleton@Idle.controller using Guid(f893d78148eef4541b5a78c4b4571608) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d9d760422bed011dafae4c004a84158') in 0.006417 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 2.032635 seconds.
+  path: Assets/Kevin Iglesias/Skeleton Animations/AnimatorControllers/Skeleton@Walk.controller
+  artifactKey: Guid(468e00031e6a05e498b55f8809463ffb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kevin Iglesias/Skeleton Animations/AnimatorControllers/Skeleton@Walk.controller using Guid(468e00031e6a05e498b55f8809463ffb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c58d9b115ce1e6c141fb9f998de16768') in 0.001843 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 1.750248 seconds.
+  path: Assets/Kevin Iglesias/Skeleton Animations/AnimatorControllers/Skeleton@Attacks.controller
+  artifactKey: Guid(eadcf975f5f7d7b48bf1217a9192369d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kevin Iglesias/Skeleton Animations/AnimatorControllers/Skeleton@Attacks.controller using Guid(eadcf975f5f7d7b48bf1217a9192369d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e278056bc521b5548abcd42cfa0a6cf0') in 0.002076 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 4.085398 seconds.
+  path: Assets/Kevin Iglesias/Skeleton Animations/Prefabs
+  artifactKey: Guid(3c212316fb35a654cb44e065f7bb3f92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kevin Iglesias/Skeleton Animations/Prefabs using Guid(3c212316fb35a654cb44e065f7bb3f92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '727c6a39c45413eb78526d50b55e97c5') in 0.000514 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000425 seconds.
+  path: Assets/Kevin Iglesias/Skeleton Animations/Prefabs/SkeletonShield.prefab
+  artifactKey: Guid(7c7da1f49932da64a97904e8cb275f76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kevin Iglesias/Skeleton Animations/Prefabs/SkeletonShield.prefab using Guid(7c7da1f49932da64a97904e8cb275f76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77e71ebe1e26c0628f071d951d747558') in 0.997073 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 78
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Kevin Iglesias/Skeleton Animations/Prefabs/SkeletonSword.prefab
+  artifactKey: Guid(78925be475d86164f92d73a589da7cba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kevin Iglesias/Skeleton Animations/Prefabs/SkeletonSword.prefab using Guid(78925be475d86164f92d73a589da7cba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcf802e79849c1a55796f092538118ac') in 0.045913 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 4.606107 seconds.
+  path: Assets/Kevin Iglesias/Skeleton Animations/Skeleton Animations - Example Scene.unity
+  artifactKey: Guid(62da171e378b97c40846ac5942243346) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kevin Iglesias/Skeleton Animations/Skeleton Animations - Example Scene.unity using Guid(62da171e378b97c40846ac5942243346) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ad77bec442af18671db8103a05bae46') in 0.001097 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 3.203630 seconds.
+  path: Assets/Kevin Iglesias/Skeleton Animations/Materials
+  artifactKey: Guid(22d140fdb54b5af438cf2b262ef3aff3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kevin Iglesias/Skeleton Animations/Materials using Guid(22d140fdb54b5af438cf2b262ef3aff3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbfcd976b1d68cef3aca5f459e1e602d') in 0.000563 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  3.388 seconds
+Refreshing native plugins compatible for Editor in 5.81 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in 26.133 seconds
+Domain Reload Profiling: 29519ms
+	BeginReloadAssembly (273ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (36ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (71ms)
+	RebuildCommonClasses (137ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (36ms)
+	LoadAllAssembliesAndSetupDomain (2927ms)
+		LoadAssemblies (3002ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (40ms)
+			TypeCache.Refresh (16ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (20ms)
+	FinalizeReload (26133ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (764ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (35ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (91ms)
+			ProcessInitializeOnLoadAttributes (589ms)
+			ProcessInitializeOnLoadMethodAttributes (34ms)
+			AfterProcessingInitializeOnLoad (10ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (68ms)
+Refreshing native plugins compatible for Editor in 4.05 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6357 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 82 unused Assets / (3.9 MB). Loaded Objects now: 8070.
+Memory consumption went from 392.7 MB to 388.8 MB.
+Total: 9.366800 ms (FindLiveObjects: 0.855100 ms CreateObjectMapping: 0.783800 ms MarkObjects: 6.448000 ms  DeleteObjects: 1.278000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
