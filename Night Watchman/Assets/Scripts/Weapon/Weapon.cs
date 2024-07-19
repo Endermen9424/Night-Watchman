@@ -8,7 +8,7 @@ public class Weapon : MonoBehaviour
     [SerializeField] protected GameObject cam;
 
     protected bool auto = false;
-    protected float cooldown = 0;
+    protected float cooldown = 3;
     protected float timer;
 
     private void Start() {
