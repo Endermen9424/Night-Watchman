@@ -10,6 +10,7 @@ public class DeahtMenuScript : MonoBehaviour
     [SerializeField] GameObject Health_Bar;
 
     public void Deaht() {
+        Cursor.lockState = CursorLockMode.None;
         DeahtMenu.SetActive(true);
         Battle_point_GameArea.SetActive(false);
         Health_Bar.SetActive(false);
