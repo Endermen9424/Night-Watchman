@@ -1,0 +1,1486 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.22f1 (887be4894c44) revision 8944612'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit CoreSingleLanguage' Language: 'tr' Physical Memory: 16221 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.22f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/02 Rüzgar Dosyalar/Github/Night-Watchman/Night Watchman
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+53455
+Successfully changed project path to: D:/02 Rüzgar Dosyalar/Github/Night-Watchman/Night Watchman
+D:/02 Rüzgar Dosyalar/Github/Night-Watchman/Night Watchman
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [17488] Host "[IP] 192.168.1.114 [Port] 0 [Flags] 2 [Guid] 3253711034 [EditorId] 3253711034 [Version] 1048832 [Id] WindowsEditor(7,Tulpar) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [17488] Host "[IP] 192.168.1.114 [Port] 0 [Flags] 2 [Guid] 3253711034 [EditorId] 3253711034 [Version] 1048832 [Id] WindowsEditor(7,Tulpar) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 11 workers.
+Refreshing native plugins compatible for Editor in 13.15 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.22f1 (887be4894c44)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.22f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/02 Rüzgar Dosyalar/Github/Night-Watchman/Night Watchman/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3060 Laptop GPU (ID=0x2520)
+    Vendor:   NVIDIA
+    VRAM:     5996 MB
+    Driver:   32.0.15.5612
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.22f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.22f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.22f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56864
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.22f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.22f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.22f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.014643 seconds.
+- Loaded All Assemblies, in  0.429 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 308 ms
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.693 seconds
+Domain Reload Profiling: 1120ms
+	BeginReloadAssembly (124ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (38ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (73ms)
+	LoadAllAssembliesAndSetupDomain (180ms)
+		LoadAssemblies (123ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (177ms)
+			TypeCache.Refresh (175ms)
+				TypeCache.ScanAssembly (159ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (693ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (626ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (430ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (3ms)
+			ProcessInitializeOnLoadAttributes (137ms)
+			ProcessInitializeOnLoadMethodAttributes (50ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.033 seconds
+Refreshing native plugins compatible for Editor in 5.38 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.350 seconds
+Domain Reload Profiling: 2379ms
+	BeginReloadAssembly (183ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (29ms)
+	RebuildCommonClasses (54ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (62ms)
+	LoadAllAssembliesAndSetupDomain (716ms)
+		LoadAssemblies (432ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (393ms)
+			TypeCache.Refresh (341ms)
+				TypeCache.ScanAssembly (316ms)
+			ScanForSourceGeneratedMonoScriptInfo (35ms)
+			ResolveRequiredComponents (14ms)
+	FinalizeReload (1350ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1087ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (32ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (99ms)
+			ProcessInitializeOnLoadAttributes (686ms)
+			ProcessInitializeOnLoadMethodAttributes (256ms)
+			AfterProcessingInitializeOnLoad (10ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 5.79 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6767 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 114 unused Assets / (3.9 MB). Loaded Objects now: 7244.
+Memory consumption went from 410.2 MB to 406.3 MB.
+Total: 8.274400 ms (FindLiveObjects: 0.695700 ms CreateObjectMapping: 1.298000 ms MarkObjects: 5.175100 ms  DeleteObjects: 1.104400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 573032.940196 seconds.
+  path: Assets/UnityTechnologies/SpaceRobotKyle/Models
+  artifactKey: Guid(78578abe586444a18a7f50cc65313a41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/SpaceRobotKyle/Models using Guid(78578abe586444a18a7f50cc65313a41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a017f6559689a5c3889a922f1f1df8c') in 0.003618 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/UnityTechnologies/SpaceRobotKyle/Textures/KyleRobot_Metallic.png
+  artifactKey: Guid(5aae2859b99764250836fdf4c100e428) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/SpaceRobotKyle/Textures/KyleRobot_Metallic.png using Guid(5aae2859b99764250836fdf4c100e428) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e244ad5d97afea53ce2d634867d1f694') in 0.069687 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 125.974797 seconds.
+  path: Assets/Kevin Iglesias/Skeleton Animations/Models/Skeleton.fbx
+  artifactKey: Guid(8ed68a3a383765a4bb2001de21d699c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kevin Iglesias/Skeleton Animations/Models/Skeleton.fbx using Guid(8ed68a3a383765a4bb2001de21d699c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75df0f816f1f4b40cc003c9faf28e24b') in 1.006514 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 141
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Models/Stones/Stones large/stone large 2.fbx
+  artifactKey: Guid(a8d804e31f75c0f46a1dadb0e597bb75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Models/Stones/Stones large/stone large 2.fbx using Guid(a8d804e31f75c0f46a1dadb0e597bb75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71bd9a4089ade782c8adbd03de5f819a') in 0.037995 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Models/Environment/smoke 2.fbx
+  artifactKey: Guid(517982a8d74649742af3c9f9daa0927b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Models/Environment/smoke 2.fbx using Guid(517982a8d74649742af3c9f9daa0927b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b0aa6b5992eb5f0a55d0afe03c7bb18') in 0.028471 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Models/Environment/sphinx.fbx
+  artifactKey: Guid(ae1959ee55741754e9daf7cdc03e84cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Models/Environment/sphinx.fbx using Guid(ae1959ee55741754e9daf7cdc03e84cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '925fe1190a0caf503946c242140e2568') in 0.036990 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Prefabs/Vehicles/space shuttle.prefab
+  artifactKey: Guid(788cac8254415e64e8425466d0c47dea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Prefabs/Vehicles/space shuttle.prefab using Guid(788cac8254415e64e8425466d0c47dea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c07ab3a9dfe69a1051d1740a3afc234f') in 0.033893 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Models/Environment/Sports environment/stadium lighting.fbx
+  artifactKey: Guid(fb34e464c24966048b4f3c7c7b65c563) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Models/Environment/Sports environment/stadium lighting.fbx using Guid(fb34e464c24966048b4f3c7c7b65c563) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a236f3606a453605249eb88b8a4e7f94') in 0.028879 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Models/Environment/Sports environment/soccer grandstand.fbx
+  artifactKey: Guid(5b16ec637dbbfb94dbead62cf58356ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Models/Environment/Sports environment/soccer grandstand.fbx using Guid(5b16ec637dbbfb94dbead62cf58356ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4980bf95b54f29f146f30520aa6b78b') in 0.028684 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Kevin Iglesias/Skeleton Animations/Models/SkeletonSword.fbx
+  artifactKey: Guid(f803efdce4ff9c74690364e5f46a9484) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kevin Iglesias/Skeleton Animations/Models/SkeletonSword.fbx using Guid(f803efdce4ff9c74690364e5f46a9484) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63fb23dc1a7f4c8a3e370defa1290eaa') in 0.024687 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Prefabs/Stones/Stones large/stone large.prefab
+  artifactKey: Guid(44ba10797d980b44e847015bcaaffecd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Prefabs/Stones/Stones large/stone large.prefab using Guid(44ba10797d980b44e847015bcaaffecd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6fd23858478b20512e5864c39f7a3dd') in 0.030005 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Models/Stones/Stones large gray blue/stone large gray blue 3.fbx
+  artifactKey: Guid(8d157510e1265fa44b168f6e4cc26ff0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Models/Stones/Stones large gray blue/stone large gray blue 3.fbx using Guid(8d157510e1265fa44b168f6e4cc26ff0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd3183061cdabce69f928c05f621ba38') in 0.030215 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Prefabs/Stones/Stones large gray blue/stone large gray blue 5.prefab
+  artifactKey: Guid(9c1c44295c32097499220bb06cc0e4d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Prefabs/Stones/Stones large gray blue/stone large gray blue 5.prefab using Guid(9c1c44295c32097499220bb06cc0e4d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38bc80a896a3752dcc3b5315705ad699') in 0.018984 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Models/Environment/Sports environment/soccer goal.fbx
+  artifactKey: Guid(1b80dfbbb388ad54db128e6041e45217) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Models/Environment/Sports environment/soccer goal.fbx using Guid(1b80dfbbb388ad54db128e6041e45217) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '101cb31e88240b1bdcf3d24d1e0252d0') in 0.034638 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Prefabs/Environment/Winter environment/star bethlehem.prefab
+  artifactKey: Guid(e53be134c6f2375458110450a09e87ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Prefabs/Environment/Winter environment/star bethlehem.prefab using Guid(e53be134c6f2375458110450a09e87ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '249b5db01d0d67c12f452e3e8c818c3f') in 0.027510 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Prefabs/Environment/Sports environment/soccer grandstand.prefab
+  artifactKey: Guid(ca3797c0d77cdda42914c49b9703007b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Prefabs/Environment/Sports environment/soccer grandstand.prefab using Guid(ca3797c0d77cdda42914c49b9703007b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fb033acf1d6049838843930addef7ad') in 0.026673 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Models/Environment/Winter environment/star bethlehem.fbx
+  artifactKey: Guid(9a197e047e7f3234d983486c367251db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Models/Environment/Winter environment/star bethlehem.fbx using Guid(9a197e047e7f3234d983486c367251db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3f44915daf37bbe6399ad2df9011939') in 0.028012 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Models/Stones/Stones large/stone large.fbx
+  artifactKey: Guid(31128e5fc91b82649bd61879e8a93cac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Models/Stones/Stones large/stone large.fbx using Guid(31128e5fc91b82649bd61879e8a93cac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f6b42ee96d8b8811b73ca7e84f2b0fe') in 0.040527 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Prefabs/Stones/Stones large gray blue/stone large gray blue 6.prefab
+  artifactKey: Guid(26531aec1040e9a4eb6a4b0189204b9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Prefabs/Stones/Stones large gray blue/stone large gray blue 6.prefab using Guid(26531aec1040e9a4eb6a4b0189204b9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '505686a14f00e99800f7904d4a812090') in 0.023594 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Models/Environment/Winter environment/snowman.fbx
+  artifactKey: Guid(7cf430fbd87c63b44ba59910dca0a767) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Models/Environment/Winter environment/snowman.fbx using Guid(7cf430fbd87c63b44ba59910dca0a767) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc8452818d7b91a1e099ea68912b3b7d') in 0.029267 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Prefabs/Environment/smoke 2.prefab
+  artifactKey: Guid(47b8b012996392e48af7e63979c4b6db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Prefabs/Environment/smoke 2.prefab using Guid(47b8b012996392e48af7e63979c4b6db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a02a6063f08e75e6576426d0131b18e5') in 0.028030 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Models/Stones/Stones large gray blue/stone large gray blue.fbx
+  artifactKey: Guid(e6d77187e77b9f549ad407e11f815e8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Models/Stones/Stones large gray blue/stone large gray blue.fbx using Guid(e6d77187e77b9f549ad407e11f815e8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac471f78fee85860a33b94983041f20f') in 0.031868 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Prefabs/Stones/Stones large gray blue/stone large gray blue 4.prefab
+  artifactKey: Guid(affe613d84fcf2249b76c35e2bc1ce22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Prefabs/Stones/Stones large gray blue/stone large gray blue 4.prefab using Guid(affe613d84fcf2249b76c35e2bc1ce22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac219ec900c7e9cb9bca75cd62de1e53') in 0.025040 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Models/Vehicles/space shuttle.fbx
+  artifactKey: Guid(6228c1b039216554c88816aa01443e53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Models/Vehicles/space shuttle.fbx using Guid(6228c1b039216554c88816aa01443e53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a98723d1f1958d21a209360781ce80e') in 0.031043 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Prefabs/Environment/sphinx.prefab
+  artifactKey: Guid(e147e2c3f8f9dc44da6b470546dd88c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Prefabs/Environment/sphinx.prefab using Guid(e147e2c3f8f9dc44da6b470546dd88c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9eae1f63a3e2bf80df31589d774dc9c4') in 0.024147 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Models/Stones/Stones small/stone small.fbx
+  artifactKey: Guid(26e812f92939031429e79b6fdd5cf012) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Models/Stones/Stones small/stone small.fbx using Guid(26e812f92939031429e79b6fdd5cf012) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '766c17d899940a83e960ee9b1b33e7e4') in 0.027850 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Models/Environment/Sports environment/soccer grandstand 2.fbx
+  artifactKey: Guid(c079866beee96314b9ae2cf2d40c2389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Models/Environment/Sports environment/soccer grandstand 2.fbx using Guid(c079866beee96314b9ae2cf2d40c2389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4d0343a30026879c85b4fbcc403b905') in 0.032640 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Prefabs/Environment/Sports environment/soccer goal.prefab
+  artifactKey: Guid(0778b0a253b1f2642bdc0fe098542888) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Prefabs/Environment/Sports environment/soccer goal.prefab using Guid(0778b0a253b1f2642bdc0fe098542888) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dffa86f66bec081317136e4f5a04d7d7') in 0.022343 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Models/Stones/stone medium.fbx
+  artifactKey: Guid(3fd3249b0d26c8344adc16280798a45b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Models/Stones/stone medium.fbx using Guid(3fd3249b0d26c8344adc16280798a45b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c089335f160e6e2fe436ae808bd59a9') in 0.029810 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Prefabs/Environment/Sports environment/stadium lighting.prefab
+  artifactKey: Guid(7d63a77374fc398439c1a897b8a72f79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Prefabs/Environment/Sports environment/stadium lighting.prefab using Guid(7d63a77374fc398439c1a897b8a72f79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cafb1daa5d0545a5e4f2018e571c9e52') in 0.017523 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Models/Stones/Stones small/stone small 7.fbx
+  artifactKey: Guid(2c542b48bed08cf479d9c762d6cff031) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Models/Stones/Stones small/stone small 7.fbx using Guid(2c542b48bed08cf479d9c762d6cff031) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8715c8a4593b8cf648cb19bc44d39c18') in 0.027551 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Prefabs/Stones/Stones small/stone small 7.prefab
+  artifactKey: Guid(48c64a637403c6b4d9412cb7b690e8dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Prefabs/Stones/Stones small/stone small 7.prefab using Guid(48c64a637403c6b4d9412cb7b690e8dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d199caa89de9c9ea2d9d7a2ee6a2ffb') in 0.017871 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Prefabs/Stones/Stones small gray blue/stone small gray blue 2.prefab
+  artifactKey: Guid(b1b0667d91af21c4bb27b32ce375e273) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Prefabs/Stones/Stones small gray blue/stone small gray blue 2.prefab using Guid(b1b0667d91af21c4bb27b32ce375e273) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3196fe4454651178dd30eb804cf8a4de') in 0.018665 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Models/Stones/Stones small gray blue/stone small gray blue 4.fbx
+  artifactKey: Guid(bae015e7f8a90e24089bcf9c0c794331) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Models/Stones/Stones small gray blue/stone small gray blue 4.fbx using Guid(bae015e7f8a90e24089bcf9c0c794331) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98021f8b835e686906c2412baf5e89e6') in 0.025028 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Prefabs/Stones/Stones small gray blue/stone small gray blue 3.prefab
+  artifactKey: Guid(d994f828183a71944b4eecc3dfa6261f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Prefabs/Stones/Stones small gray blue/stone small gray blue 3.prefab using Guid(d994f828183a71944b4eecc3dfa6261f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '549bba551ca46a1a671227e90eac8110') in 0.019421 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Models/Stones/Stones small/stone small 11.fbx
+  artifactKey: Guid(8a878e28d7469ec478dd83e72e9ab75f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Models/Stones/Stones small/stone small 11.fbx using Guid(8a878e28d7469ec478dd83e72e9ab75f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e87a1f747d53c327675911157ed5bf0e') in 0.027783 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Prefabs/Stones/Stones small/stone small 10.prefab
+  artifactKey: Guid(12a1f43a2844ec34699e1af4039d93e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Prefabs/Stones/Stones small/stone small 10.prefab using Guid(12a1f43a2844ec34699e1af4039d93e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf445300b766607691c05321a26da5f9') in 0.023478 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Models/Stones/Stones small/stone small 8.fbx
+  artifactKey: Guid(19e4aba8d7a8a854da28657aceee6f6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Models/Stones/Stones small/stone small 8.fbx using Guid(19e4aba8d7a8a854da28657aceee6f6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '462971e57beb621c9a384c83484ee774') in 0.034470 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Prefabs/Stones/Stones small/stone small 11.prefab
+  artifactKey: Guid(665d8df4d6d3890449c10daccaf24157) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Prefabs/Stones/Stones small/stone small 11.prefab using Guid(665d8df4d6d3890449c10daccaf24157) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ee386daa312fa1e9e634b36112287d6') in 0.021475 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Models/Stones/Stones small/stone small 10.fbx
+  artifactKey: Guid(36da15b0fe7e3c145bc4a445e5ae2460) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Models/Stones/Stones small/stone small 10.fbx using Guid(36da15b0fe7e3c145bc4a445e5ae2460) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '901842e61b8c864a14b1e01d44aebed9') in 0.029040 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Models/Stones/Stones small gray blue/stone small gray blue 2.fbx
+  artifactKey: Guid(2b3141fad648c9743b31c8f9ff9abed2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Models/Stones/Stones small gray blue/stone small gray blue 2.fbx using Guid(2b3141fad648c9743b31c8f9ff9abed2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47c58e9937b87b0671abf352059e1640') in 0.030129 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Prefabs/Stones/Stones large/stone large 2.prefab
+  artifactKey: Guid(113edd08c2857434fac26fb3b519b32c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Prefabs/Stones/Stones large/stone large 2.prefab using Guid(113edd08c2857434fac26fb3b519b32c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05ccd0231a086c4251e686bd4cd4cdf8') in 0.024349 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Prefabs/Stones/stone medium.prefab
+  artifactKey: Guid(8553144a36354224f89064fa8846ef43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Prefabs/Stones/stone medium.prefab using Guid(8553144a36354224f89064fa8846ef43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc91981b1bce03da073411ad07aa5012') in 0.026115 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.790696 seconds.
+  path: Assets/UnityTechnologies/StarterAssets/Mobile/Prefabs/EventSystem/UI_EventSystem.prefab
+  artifactKey: Guid(f0271df749728104eac22c3d897fd8ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/StarterAssets/Mobile/Prefabs/EventSystem/UI_EventSystem.prefab using Guid(f0271df749728104eac22c3d897fd8ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '054256262f29dab8a668501aa4571b08') in 0.003752 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/SimplePoly City - Low Poly Assets/Models/Vehicle_Ambulance.fbx
+  artifactKey: Guid(ca65f40fba8c4d146800611d34e2e114) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly City - Low Poly Assets/Models/Vehicle_Ambulance.fbx using Guid(ca65f40fba8c4d146800611d34e2e114) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09fe2124c8fe1588a651fbea25a4420e') in 0.028540 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/SimplePoly City - Low Poly Assets/Prefab/Vehicles/Vehicle with Separated Wheels/Vehicle_Bus_color01_separate.prefab
+  artifactKey: Guid(de535534204e83f4e84497ac553192eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly City - Low Poly Assets/Prefab/Vehicles/Vehicle with Separated Wheels/Vehicle_Bus_color01_separate.prefab using Guid(de535534204e83f4e84497ac553192eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47e605030a73fa2907e43d3e817ea983') in 0.039599 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 32
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/SimplePoly City - Low Poly Assets/Models/Vehicle_Ambulance_separate.fbx
+  artifactKey: Guid(1acbee872179ec040aac4503ec160fd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly City - Low Poly Assets/Models/Vehicle_Ambulance_separate.fbx using Guid(1acbee872179ec040aac4503ec160fd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96c0ec459a64a3a9f2712449ff268305') in 0.112594 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 32
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/SimplePoly City - Low Poly Assets/Prefab/Vehicles/Vehicle with Static Wheels/Vehicle_Car_color01.prefab
+  artifactKey: Guid(a119eb0fa059db34bbaef286c1af1696) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly City - Low Poly Assets/Prefab/Vehicles/Vehicle with Static Wheels/Vehicle_Car_color01.prefab using Guid(a119eb0fa059db34bbaef286c1af1696) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da448f58eaea676e4574b23761797130') in 0.039400 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/SimplePoly City - Low Poly Assets/Prefab/Vehicles/Vehicle with Static Wheels/Vehicle_Car_color02.prefab
+  artifactKey: Guid(81835658bbd378143a0f525b8552f557) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly City - Low Poly Assets/Prefab/Vehicles/Vehicle with Static Wheels/Vehicle_Car_color02.prefab using Guid(81835658bbd378143a0f525b8552f557) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c32b2468f1c41f26a331f50a64d6699') in 0.030948 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/SimplePoly City - Low Poly Assets/Models/Vehicle_Bus_separate.fbx
+  artifactKey: Guid(bec0886ced73844469c2edf3ebb4b047) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly City - Low Poly Assets/Models/Vehicle_Bus_separate.fbx using Guid(bec0886ced73844469c2edf3ebb4b047) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8895df411c3b21a0259ca101e265732') in 0.079118 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 32
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/SimplePoly City - Low Poly Assets/Models/Vehicle_Container.fbx
+  artifactKey: Guid(af2166692e99625489131a7bf2114bd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly City - Low Poly Assets/Models/Vehicle_Container.fbx using Guid(af2166692e99625489131a7bf2114bd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0d0035932db808a768dda902ca912fc') in 0.020717 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000085 seconds.
+  path: Assets/SimplePoly City - Low Poly Assets/Prefab/Vehicles/Vehicle with Static Wheels/Vehicle_Pick up Truck_color02.prefab
+  artifactKey: Guid(81c050d9e127fdd45af1f6b8da476b2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly City - Low Poly Assets/Prefab/Vehicles/Vehicle with Static Wheels/Vehicle_Pick up Truck_color02.prefab using Guid(81c050d9e127fdd45af1f6b8da476b2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f63e82b70d5517fc536e4319ae1abb2e') in 0.041333 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/SimplePoly City - Low Poly Assets/Models/Vehicle_Pick up Truck.fbx
+  artifactKey: Guid(6780ac7fd67c9ab43aebe63ff3fb60aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly City - Low Poly Assets/Models/Vehicle_Pick up Truck.fbx using Guid(6780ac7fd67c9ab43aebe63ff3fb60aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3997f2bc8b7a07173a0247ac1fe5c4c4') in 0.024941 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/SimplePoly City - Low Poly Assets/Prefab/Vehicles/Vehicle with Separated Wheels/Vehicle_Pick up Truck_color01_separate.prefab
+  artifactKey: Guid(fc2b2b65264c13f48a615fa7dbc2ef24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly City - Low Poly Assets/Prefab/Vehicles/Vehicle with Separated Wheels/Vehicle_Pick up Truck_color01_separate.prefab using Guid(fc2b2b65264c13f48a615fa7dbc2ef24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f1ecb58fc60b4c8bcfcd85d683064ea') in 0.035371 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 32
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/SimplePoly City - Low Poly Assets/Prefab/Vehicles/Vehicle with Separated Wheels/Vehicle_Container_color02_separate.prefab
+  artifactKey: Guid(025a3497fa872fe4ebfed7edb8eb310c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly City - Low Poly Assets/Prefab/Vehicles/Vehicle with Separated Wheels/Vehicle_Container_color02_separate.prefab using Guid(025a3497fa872fe4ebfed7edb8eb310c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fc3ad49161f115d56d6a5993b3a343c') in 0.051443 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 42
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/SimplePoly City - Low Poly Assets/Models/Vehicle_Taxi.fbx
+  artifactKey: Guid(a7419a75ac6929e48842c0470aa44718) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly City - Low Poly Assets/Models/Vehicle_Taxi.fbx using Guid(a7419a75ac6929e48842c0470aa44718) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72fcb6c6fd815f9ce522763407cfa6ae') in 0.037076 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/SimplePoly City - Low Poly Assets/Prefab/Vehicles/Vehicle with Separated Wheels/Vehicle_Car_color03_separate.prefab
+  artifactKey: Guid(11a57a102cdb5e642899ceab079f1938) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly City - Low Poly Assets/Prefab/Vehicles/Vehicle with Separated Wheels/Vehicle_Car_color03_separate.prefab using Guid(11a57a102cdb5e642899ceab079f1938) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '048a09bfb228e2ef5a5d25a1fd102b89') in 0.031994 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 32
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/SimplePoly City - Low Poly Assets/Models/Vehicle_Police Car_separate.fbx
+  artifactKey: Guid(9cfaa27d2ed0cb5489d16d0b33a850bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly City - Low Poly Assets/Models/Vehicle_Police Car_separate.fbx using Guid(9cfaa27d2ed0cb5489d16d0b33a850bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6ae391a40e94b181a9fbb6a3eb3b1ce') in 0.101204 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 32
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/SimplePoly City - Low Poly Assets/Prefab/Vehicles/Vehicle with Static Wheels/Vehicle_SUV_color03.prefab
+  artifactKey: Guid(00d77ce56096de34eb6645947a0f8925) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly City - Low Poly Assets/Prefab/Vehicles/Vehicle with Static Wheels/Vehicle_SUV_color03.prefab using Guid(00d77ce56096de34eb6645947a0f8925) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f2f96e989d7c63b54f962f49e14e5e8') in 0.022789 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/SimplePoly City - Low Poly Assets/Models/Vehicle_SUV_separate.fbx
+  artifactKey: Guid(1592d15b209482a419d7871e61ae4e5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly City - Low Poly Assets/Models/Vehicle_SUV_separate.fbx using Guid(1592d15b209482a419d7871e61ae4e5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '734e34d70028ed5f0795e7b7c098acb7') in 0.091560 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 32
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/SimplePoly City - Low Poly Assets/Models/Vehicle_Police Car.fbx
+  artifactKey: Guid(c89ff10cad1be9a4e83cf49bf466e148) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly City - Low Poly Assets/Models/Vehicle_Police Car.fbx using Guid(c89ff10cad1be9a4e83cf49bf466e148) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1ed9610f18b57e89a523bd1208f96e1') in 0.027289 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/SimplePoly City - Low Poly Assets/Models/Vehicle_Container_separate.fbx
+  artifactKey: Guid(5e76bd7f638b280469d7653f47693abd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly City - Low Poly Assets/Models/Vehicle_Container_separate.fbx using Guid(5e76bd7f638b280469d7653f47693abd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0119df600fba37c759e16f109255e968') in 0.132258 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 42
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/SimplePoly City - Low Poly Assets/Prefab/Vehicles/Vehicle with Static Wheels/Vehicle_Car_color03.prefab
+  artifactKey: Guid(c98da428142c39c42bb62c454958cd1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly City - Low Poly Assets/Prefab/Vehicles/Vehicle with Static Wheels/Vehicle_Car_color03.prefab using Guid(c98da428142c39c42bb62c454958cd1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72439d737e41f5d97dc0076257b58b84') in 0.016406 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/SimplePoly City - Low Poly Assets/Prefab/Vehicles/Vehicle with Separated Wheels/Vehicle_Ambulance_separate.prefab
+  artifactKey: Guid(b3f4ad6e44f81784ba0ebe95aadf2a7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly City - Low Poly Assets/Prefab/Vehicles/Vehicle with Separated Wheels/Vehicle_Ambulance_separate.prefab using Guid(b3f4ad6e44f81784ba0ebe95aadf2a7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1e73215c13bb6223f374314572d72a2') in 0.023173 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 32
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/SimplePoly City - Low Poly Assets/Prefab/Vehicles/Vehicle with Separated Wheels/Vehicle_SUV_color02_separate.prefab
+  artifactKey: Guid(a7cd9ad30e9d4c146986aa1e6694b9e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly City - Low Poly Assets/Prefab/Vehicles/Vehicle with Separated Wheels/Vehicle_SUV_color02_separate.prefab using Guid(a7cd9ad30e9d4c146986aa1e6694b9e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8828307b8b7a0c943a52391c4a0882dd') in 0.019389 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 32
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/SimplePoly City - Low Poly Assets/Prefab/Vehicles/Vehicle with Static Wheels/Vehicle_Container_color02.prefab
+  artifactKey: Guid(6fa2aa0a1d56aba4a8884471618de9e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly City - Low Poly Assets/Prefab/Vehicles/Vehicle with Static Wheels/Vehicle_Container_color02.prefab using Guid(6fa2aa0a1d56aba4a8884471618de9e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0a3b1151715590bc859b0b5cc0b1ca2') in 0.019905 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.524746 seconds.
+  path: Assets/SimplePoly City - Low Poly Assets/Prefab/Vehicles/Vehicle with Static Wheels/Vehicle_Taxi.prefab
+  artifactKey: Guid(05aec82adc02f16409639716322b1673) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly City - Low Poly Assets/Prefab/Vehicles/Vehicle with Static Wheels/Vehicle_Taxi.prefab using Guid(05aec82adc02f16409639716322b1673) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c333cfd7faab87e16e839116de89b09') in 0.035017 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/SimplePoly City - Low Poly Assets/Prefab/Vehicles/Vehicle with Separated Wheels/Vehicle_Truck_color03_separate.prefab
+  artifactKey: Guid(1508f459923b7df4889f466e17864ab4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly City - Low Poly Assets/Prefab/Vehicles/Vehicle with Separated Wheels/Vehicle_Truck_color03_separate.prefab using Guid(1508f459923b7df4889f466e17864ab4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30a400ca0d25d639dc568a8793b7e67a') in 0.030239 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 42
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/SimplePoly City - Low Poly Assets/Prefab/Vehicles/Vehicle with Separated Wheels/Vehicle_Truck_color01_separate.prefab
+  artifactKey: Guid(636cb627739652c418fcc4f683a138b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly City - Low Poly Assets/Prefab/Vehicles/Vehicle with Separated Wheels/Vehicle_Truck_color01_separate.prefab using Guid(636cb627739652c418fcc4f683a138b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8495c4ffbebc07da7c0a00354bc5103') in 0.015503 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 42
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Models/Waters/water location desert pyramids.fbx
+  artifactKey: Guid(048bc3ca35e06e84a9e70f65b3693e8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Models/Waters/water location desert pyramids.fbx using Guid(048bc3ca35e06e84a9e70f65b3693e8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c10a0864642e5748d9559687c0b9315a') in 0.025954 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Models/Environment/Winter environment/winter well.fbx
+  artifactKey: Guid(e0ad9d78452fa8e4e89bbc45fc9e2626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Models/Environment/Winter environment/winter well.fbx using Guid(e0ad9d78452fa8e4e89bbc45fc9e2626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c308a5371ab4ef63eaf0578642d8d41') in 0.026721 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Prefabs/Houses/Wooden winter houses/wooden winter house.prefab
+  artifactKey: Guid(28c5feb91521acb438135d1ac793ee23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Prefabs/Houses/Wooden winter houses/wooden winter house.prefab using Guid(28c5feb91521acb438135d1ac793ee23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '130902d1650a1669a779154baa8e5ef7') in 0.025292 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Prefabs/Waters/water location treasure Island.prefab
+  artifactKey: Guid(960b269cf951bfb4baaa37255368b49f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Prefabs/Waters/water location treasure Island.prefab using Guid(960b269cf951bfb4baaa37255368b49f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c85c5a98e349b59db3e20a770dee299e') in 0.033390 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/SimplePoly City - Low Poly Assets/Models/Vehicle_Taxi_separate.fbx
+  artifactKey: Guid(76eea54e4cf71bf4dac0e3ef48ee32b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly City - Low Poly Assets/Models/Vehicle_Taxi_separate.fbx using Guid(76eea54e4cf71bf4dac0e3ef48ee32b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '802c9b68f7b9a8ad5e985bb18f65f2d1') in 0.101111 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 32
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Models/Environment/Camping environment/wooden pendant.fbx
+  artifactKey: Guid(df7ced8f9bf2412499ae55621939f829) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Models/Environment/Camping environment/wooden pendant.fbx using Guid(df7ced8f9bf2412499ae55621939f829) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9478d3a15fcb4534ef5a6bd604f6ba5') in 0.027576 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/SimplePoly City - Low Poly Assets/Prefab/Vehicles/Vehicle with Static Wheels/Vehicle_Truck_color02.prefab
+  artifactKey: Guid(e218686c5655fad46a02ebfb004972ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly City - Low Poly Assets/Prefab/Vehicles/Vehicle with Static Wheels/Vehicle_Truck_color02.prefab using Guid(e218686c5655fad46a02ebfb004972ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '390fbdbabf633f7a42e999c2e511986c') in 0.015621 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Models/Waters/water location camping forest.fbx
+  artifactKey: Guid(3b4e3290fa5d770418458b0093b9d7e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Models/Waters/water location camping forest.fbx using Guid(3b4e3290fa5d770418458b0093b9d7e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4503bdd569a73ac004dab175f160645') in 0.026230 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Prefabs/Environment/wooden bridge.prefab
+  artifactKey: Guid(48db376ce4e9f214e90b9d3fcd2d26b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Prefabs/Environment/wooden bridge.prefab using Guid(48db376ce4e9f214e90b9d3fcd2d26b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad9a96f8c8a4d78b1d93a8b48c9f3e3a') in 0.027077 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Models/Environment/water tank.fbx
+  artifactKey: Guid(d33d26884c2d6b1439d3673916f2dbf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Models/Environment/water tank.fbx using Guid(d33d26884c2d6b1439d3673916f2dbf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd38e1707863a304d6bb6b19c322c42e9') in 0.028653 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Prefabs/Environment/wooden pier.prefab
+  artifactKey: Guid(5c6dc64afb6452046a97806070f87e7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Prefabs/Environment/wooden pier.prefab using Guid(5c6dc64afb6452046a97806070f87e7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0260056c00b15614c4df8f9369390a5f') in 0.023926 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Prefabs/Waters/water location desert pyramids.prefab
+  artifactKey: Guid(2ba84dca5dc8f0f4ea82ea4dad6a9785) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Prefabs/Waters/water location desert pyramids.prefab using Guid(2ba84dca5dc8f0f4ea82ea4dad6a9785) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8eb5e63bb31c1ff9a1b9e00084e62504') in 0.024982 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Prefabs/Waters/water location christmas village.prefab
+  artifactKey: Guid(5f7c27b451d103742ac0c4c83f58aeb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Prefabs/Waters/water location christmas village.prefab using Guid(5f7c27b451d103742ac0c4c83f58aeb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29c49328d299828e4ae8e04122dd59cd') in 0.025379 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/SimplePoly City - Low Poly Assets/Prefab/Vehicles/Vehicle with Static Wheels/Vehicle_Truck_color03.prefab
+  artifactKey: Guid(993432d7809c9bf489a5a96006618fef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly City - Low Poly Assets/Prefab/Vehicles/Vehicle with Static Wheels/Vehicle_Truck_color03.prefab using Guid(993432d7809c9bf489a5a96006618fef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72e377e7bfce611defa9635ef3faaafd') in 0.018760 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Prefabs/Houses/Wooden winter houses/wooden winter house 2.prefab
+  artifactKey: Guid(b080d431fd04fbc469648da7f4beb944) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Prefabs/Houses/Wooden winter houses/wooden winter house 2.prefab using Guid(b080d431fd04fbc469648da7f4beb944) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7a796a0e293e3f4f206289dd66edb1e') in 0.029672 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Models/Waters/water location christmas village.fbx
+  artifactKey: Guid(31f798d331b2fe74aaee1649612a945f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Models/Waters/water location christmas village.fbx using Guid(31f798d331b2fe74aaee1649612a945f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '671d4a18465b5fe9daea1b95e4af90fa') in 0.027439 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Prefabs/Waters/water location japanes island.prefab
+  artifactKey: Guid(39d536f6754d8c34c9e12ed5ef76c2f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Prefabs/Waters/water location japanes island.prefab using Guid(39d536f6754d8c34c9e12ed5ef76c2f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f28ced3fbf8df22d1b804b16fbe0df7') in 0.027641 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  3.585 seconds
+Refreshing native plugins compatible for Editor in 7.53 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  5.684 seconds
+Domain Reload Profiling: 9265ms
+	BeginReloadAssembly (1346ms)
+		ExecutionOrderSort (6ms)
+		DisableScriptedObjects (126ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (755ms)
+	RebuildCommonClasses (360ms)
+	RebuildNativeTypeToScriptingClass (83ms)
+	initialDomainReloadingComplete (186ms)
+	LoadAllAssembliesAndSetupDomain (1606ms)
+		LoadAssemblies (1466ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (398ms)
+			TypeCache.Refresh (225ms)
+				TypeCache.ScanAssembly (12ms)
+			ScanForSourceGeneratedMonoScriptInfo (142ms)
+			ResolveRequiredComponents (28ms)
+	FinalizeReload (5684ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (2382ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (63ms)
+			SetLoadedEditorAssemblies (9ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (236ms)
+			ProcessInitializeOnLoadAttributes (1996ms)
+			ProcessInitializeOnLoadMethodAttributes (50ms)
+			AfterProcessingInitializeOnLoad (22ms)
+			EditorAssembliesLoaded (5ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (90ms)
+Refreshing native plugins compatible for Editor in 6.87 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6378 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 95 unused Assets / (4.6 MB). Loaded Objects now: 7413.
+Memory consumption went from 362.7 MB to 358.0 MB.
+Total: 7.965400 ms (FindLiveObjects: 0.761500 ms CreateObjectMapping: 0.942000 ms MarkObjects: 4.321100 ms  DeleteObjects: 1.938800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 737.606536 seconds.
+  path: Assets/Scripts/Charecter/PointsSystemManager.cs
+  artifactKey: Guid(807729443b74029448f3ae6cacaf295c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Charecter/PointsSystemManager.cs using Guid(807729443b74029448f3ae6cacaf295c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0af497910ada087201e7584f3a61ebd9') in 0.026064 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.787 seconds
+Refreshing native plugins compatible for Editor in 4.68 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  7.967 seconds
+Domain Reload Profiling: 8750ms
+	BeginReloadAssembly (217ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (66ms)
+	RebuildCommonClasses (43ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (38ms)
+	LoadAllAssembliesAndSetupDomain (472ms)
+		LoadAssemblies (494ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (75ms)
+			TypeCache.Refresh (14ms)
+				TypeCache.ScanAssembly (1ms)
+			ScanForSourceGeneratedMonoScriptInfo (46ms)
+			ResolveRequiredComponents (14ms)
+	FinalizeReload (7968ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (594ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (32ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (78ms)
+			ProcessInitializeOnLoadAttributes (446ms)
+			ProcessInitializeOnLoadMethodAttributes (27ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (52ms)
+Refreshing native plugins compatible for Editor in 3.99 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6371 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 95 unused Assets / (4.6 MB). Loaded Objects now: 7416.
+Memory consumption went from 363.1 MB to 358.4 MB.
+Total: 7.817400 ms (FindLiveObjects: 0.574800 ms CreateObjectMapping: 0.887500 ms MarkObjects: 5.041300 ms  DeleteObjects: 1.312800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.592 seconds
+Refreshing native plugins compatible for Editor in 4.39 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.383 seconds
+Domain Reload Profiling: 2972ms
+	BeginReloadAssembly (221ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (8ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (64ms)
+	RebuildCommonClasses (39ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (40ms)
+	LoadAllAssembliesAndSetupDomain (278ms)
+		LoadAssemblies (342ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (23ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (13ms)
+	FinalizeReload (2383ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (887ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (36ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (106ms)
+			ProcessInitializeOnLoadAttributes (685ms)
+			ProcessInitializeOnLoadMethodAttributes (44ms)
+			AfterProcessingInitializeOnLoad (13ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (72ms)
+Refreshing native plugins compatible for Editor in 5.16 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6371 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 95 unused Assets / (4.6 MB). Loaded Objects now: 7419.
+Memory consumption went from 365.0 MB to 360.4 MB.
+Total: 8.808500 ms (FindLiveObjects: 1.091400 ms CreateObjectMapping: 1.228200 ms MarkObjects: 4.097500 ms  DeleteObjects: 2.390100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.540 seconds
+Refreshing native plugins compatible for Editor in 4.72 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.125 seconds
+Domain Reload Profiling: 2663ms
+	BeginReloadAssembly (194ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (58ms)
+	RebuildCommonClasses (35ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (32ms)
+	LoadAllAssembliesAndSetupDomain (264ms)
+		LoadAssemblies (313ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (31ms)
+			TypeCache.Refresh (10ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (19ms)
+	FinalizeReload (2126ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (780ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (36ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (99ms)
+			ProcessInitializeOnLoadAttributes (598ms)
+			ProcessInitializeOnLoadMethodAttributes (31ms)
+			AfterProcessingInitializeOnLoad (12ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (58ms)
+Refreshing native plugins compatible for Editor in 4.19 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6371 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 95 unused Assets / (4.6 MB). Loaded Objects now: 7422.
+Memory consumption went from 367.0 MB to 362.3 MB.
+Total: 7.808400 ms (FindLiveObjects: 0.969600 ms CreateObjectMapping: 0.851900 ms MarkObjects: 4.479300 ms  DeleteObjects: 1.505000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.569 seconds
+Refreshing native plugins compatible for Editor in 4.27 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.268 seconds
+Domain Reload Profiling: 2835ms
+	BeginReloadAssembly (215ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (57ms)
+	RebuildCommonClasses (41ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (39ms)
+	LoadAllAssembliesAndSetupDomain (253ms)
+		LoadAssemblies (339ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (25ms)
+			TypeCache.Refresh (9ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (15ms)
+	FinalizeReload (2269ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (817ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (31ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (115ms)
+			ProcessInitializeOnLoadAttributes (616ms)
+			ProcessInitializeOnLoadMethodAttributes (42ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (61ms)
+Refreshing native plugins compatible for Editor in 4.18 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6371 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 95 unused Assets / (4.6 MB). Loaded Objects now: 7425.
+Memory consumption went from 368.9 MB to 364.3 MB.
+Total: 6.805900 ms (FindLiveObjects: 0.624400 ms CreateObjectMapping: 0.746700 ms MarkObjects: 3.404100 ms  DeleteObjects: 2.029300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.532 seconds
+Refreshing native plugins compatible for Editor in 4.47 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.292 seconds
+Domain Reload Profiling: 2821ms
+	BeginReloadAssembly (186ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (49ms)
+	RebuildCommonClasses (33ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (33ms)
+	LoadAllAssembliesAndSetupDomain (265ms)
+		LoadAssemblies (321ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (26ms)
+			TypeCache.Refresh (11ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (13ms)
+	FinalizeReload (2293ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (803ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (31ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (98ms)
+			ProcessInitializeOnLoadAttributes (624ms)
+			ProcessInitializeOnLoadMethodAttributes (35ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (60ms)
+Refreshing native plugins compatible for Editor in 5.25 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6371 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 95 unused Assets / (4.6 MB). Loaded Objects now: 7428.
+Memory consumption went from 370.8 MB to 366.2 MB.
+Total: 7.433200 ms (FindLiveObjects: 0.609000 ms CreateObjectMapping: 0.796200 ms MarkObjects: 4.388300 ms  DeleteObjects: 1.638500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.567 seconds
+Refreshing native plugins compatible for Editor in 5.35 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.416 seconds
+Domain Reload Profiling: 2980ms
+	BeginReloadAssembly (200ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (60ms)
+	RebuildCommonClasses (37ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (35ms)
+	LoadAllAssembliesAndSetupDomain (279ms)
+		LoadAssemblies (337ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (32ms)
+			TypeCache.Refresh (12ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (18ms)
+	FinalizeReload (2417ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (907ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (37ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (110ms)
+			ProcessInitializeOnLoadAttributes (708ms)
+			ProcessInitializeOnLoadMethodAttributes (37ms)
+			AfterProcessingInitializeOnLoad (10ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (59ms)
+Refreshing native plugins compatible for Editor in 4.12 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6371 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 95 unused Assets / (4.6 MB). Loaded Objects now: 7431.
+Memory consumption went from 372.7 MB to 368.1 MB.
+Total: 7.246100 ms (FindLiveObjects: 0.634900 ms CreateObjectMapping: 0.582200 ms MarkObjects: 4.688600 ms  DeleteObjects: 1.338900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.671 seconds
+Refreshing native plugins compatible for Editor in 4.51 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.519 seconds
+Domain Reload Profiling: 3187ms
+	BeginReloadAssembly (250ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (76ms)
+	RebuildCommonClasses (44ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (40ms)
+	LoadAllAssembliesAndSetupDomain (318ms)
+		LoadAssemblies (400ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (26ms)
+			TypeCache.Refresh (9ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (14ms)
+	FinalizeReload (2520ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (914ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (32ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (110ms)
+			ProcessInitializeOnLoadAttributes (722ms)
+			ProcessInitializeOnLoadMethodAttributes (35ms)
+			AfterProcessingInitializeOnLoad (10ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (67ms)
+Refreshing native plugins compatible for Editor in 4.19 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6371 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 95 unused Assets / (4.6 MB). Loaded Objects now: 7434.
+Memory consumption went from 374.7 MB to 370.0 MB.
+Total: 8.118300 ms (FindLiveObjects: 0.720500 ms CreateObjectMapping: 1.133700 ms MarkObjects: 4.658900 ms  DeleteObjects: 1.603200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.577 seconds
+Refreshing native plugins compatible for Editor in 3.99 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.337 seconds
+Domain Reload Profiling: 2911ms
+	BeginReloadAssembly (201ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (62ms)
+	RebuildCommonClasses (46ms)
+	RebuildNativeTypeToScriptingClass (21ms)
+	initialDomainReloadingComplete (34ms)
+	LoadAllAssembliesAndSetupDomain (271ms)
+		LoadAssemblies (332ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (25ms)
+			TypeCache.Refresh (9ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (14ms)
+	FinalizeReload (2338ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (839ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (37ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (93ms)
+			ProcessInitializeOnLoadAttributes (663ms)
+			ProcessInitializeOnLoadMethodAttributes (33ms)
+			AfterProcessingInitializeOnLoad (10ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (64ms)
+Refreshing native plugins compatible for Editor in 4.85 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6371 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 95 unused Assets / (4.6 MB). Loaded Objects now: 7437.
+Memory consumption went from 376.6 MB to 372.0 MB.
+Total: 8.157200 ms (FindLiveObjects: 1.047600 ms CreateObjectMapping: 0.894800 ms MarkObjects: 4.462000 ms  DeleteObjects: 1.750500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 

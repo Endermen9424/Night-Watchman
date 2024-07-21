@@ -22,6 +22,7 @@ public class Pistol : Weapon
 
             if (hit.collider.CompareTag("Enemy")) {
                 hit.collider.GetComponent<Enemy>().ChangeHealth(20f);
+                pointManager.Add_Battle_Point(20);
             }
 
             Destroy(gameBullet, 1f);
