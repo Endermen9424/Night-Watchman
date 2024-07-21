@@ -8,6 +8,7 @@ public class PlayerHealthController : MonoBehaviour
 {
     public float health = 100;
     [SerializeField] GameObject HealthBar;
+    [SerializeField] DeahtMenuScript deahtMenuScript;
     
     void Update() {
         health = Mathf.Clamp(health, 0, 100);
@@ -18,6 +19,7 @@ public class PlayerHealthController : MonoBehaviour
         HealthBar.GetComponent<Slider>().value = health;
         if (health <= 0) {
             Time.timeScale = 0;
+            deahtMenuScript.Deaht();
         }
     }
 }
