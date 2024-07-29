@@ -1035,6 +1035,47 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 244092096}
   serializedVersion: 2
+<<<<<<< HEAD
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 58953128}
+  - {fileID: 162424484}
+  - {fileID: 693992737}
+  - {fileID: 2015277957}
+  - {fileID: 1338555885}
+  - {fileID: 1668838774}
+  m_Father: {fileID: 1283081293}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+=======
+  m_LocalRotation: {x: -0.5663958, y: -0.3791126, z: -0.5461786, w: -0.48698902}
+  m_LocalPosition: {x: 0.09699987, y: -0.044999763, z: 0.0039997585}
+  m_LocalScale: {x: 0.8, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 5376657777033211006}
+  m_Father: {fileID: 6237177819571322739}
+  m_LocalEulerAnglesHint: {x: -187.905, y: -94.10699, z: -76.08301}
+--- !u!114 &270460166
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 270460164}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 01e1def6c2dab4d48a377170f197a052, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  particle: {fileID: 2847906801061635960, guid: a1c509de7deadcb45a4cbe684e808bfb,
+    type: 3}
+  cam: {fileID: 1823688464}
+  pointManager: {fileID: 1708457861}
+  damage: 0
+>>>>>>> parent of 98c6d85 (.I upgrade scene)
 --- !u!1 &277812284
 GameObject:
   m_ObjectHideFlags: 0
