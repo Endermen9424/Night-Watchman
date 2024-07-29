@@ -21,7 +21,7 @@ public class Pistol : Weapon
             GameObject gameBullet = Instantiate(particle, hit.point, hit.transform.rotation);
 
             if (hit.collider.CompareTag("Enemy")) {
-                hit.collider.GetComponent<Enemy>().ChangeHealth(20f);
+                hit.collider.GetComponent<Enemy>().ChangeHealth(damage);
                 pointManager.Add_Battle_Point(20);
             }
 

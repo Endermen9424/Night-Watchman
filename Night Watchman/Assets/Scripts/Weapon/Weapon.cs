@@ -13,6 +13,8 @@ public class Weapon : MonoBehaviour
     protected float cooldown = 3;
     protected float timer;
 
+    [SerializeField] protected float damage;
+
     private void Start() {
         timer = cooldown;
     }
