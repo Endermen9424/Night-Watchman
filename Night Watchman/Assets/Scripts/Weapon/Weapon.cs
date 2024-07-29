@@ -7,8 +7,6 @@ public class Weapon : MonoBehaviour
     [SerializeField] protected GameObject particle;
     [SerializeField] protected GameObject cam;
 
-    [SerializeField] protected PointsSystemManager pointManager;
-
     protected bool auto = false;
     protected float cooldown = 3;
     protected float timer;

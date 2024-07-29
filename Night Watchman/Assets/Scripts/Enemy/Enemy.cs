@@ -10,6 +10,8 @@ public class Enemy : MonoBehaviour
     [SerializeField] protected float speed = 5;
     [SerializeField] protected Animator anim;
 
+    [SerializeField] protected PointsSystemManager pointManager;
+
     protected float cooldown = 0;
     protected float timer;
 
@@ -30,7 +32,7 @@ public class Enemy : MonoBehaviour
         timer = cooldown;
 
         player = GameObject.FindGameObjectWithTag("Player");
-        print(player);
+        pointManager = FindFirstObjectByType<PointsSystemManager>();
     }
 
     protected void Update() {
@@ -82,6 +84,7 @@ public class Enemy : MonoBehaviour
         health -= value;
         if (health <= 0) {
             Destroy(gameObject);
+            pointManager.Add_Battle_Point(20);
         }
     }
 }
