@@ -53,7 +53,10 @@ public class Enemy : MonoBehaviour
             coroutineRunning = true;
         }
         else {
-            Walk();
+            if (!isDeath)
+            {
+                Walk();
+            }
         }
     }
 
@@ -90,7 +93,8 @@ public class Enemy : MonoBehaviour
         health -= value;
         if (health <= 0) {
             isDeath = true;
-            Destroy(gameObject, 1f);
+            anim.SetBool("Death", true);
+            Destroy(gameObject, 1);
             pointManager.Add_Battle_Point(20);
         }
     }
