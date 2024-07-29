@@ -57,6 +57,9 @@ public class Enemy : MonoBehaviour
             {
                 Walk();
             }
+            else{
+                rb.velocity = new Vector3(0, 0, 0);
+            }
         }
     }
 
@@ -79,13 +82,11 @@ public class Enemy : MonoBehaviour
     }
 
     public IEnumerator RunAttack() {
-        while(true) {
-            if (!isDeath)
-            {
+        while (true) { // exit after 3 attacks
+            if (!isDeath) {
                 Attack();
                 yield return new WaitForSeconds(1f);
             }
-            
         }
     }
 
