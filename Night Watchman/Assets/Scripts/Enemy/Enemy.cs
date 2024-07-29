@@ -15,6 +15,8 @@ public class Enemy : MonoBehaviour
     protected float cooldown = 0;
     protected float timer;
 
+    protected bool isDeath;
+
     public float attackVelocity;
 
     protected float distance;
@@ -75,15 +77,20 @@ public class Enemy : MonoBehaviour
 
     public IEnumerator RunAttack() {
         while(true) {
-            Attack();
-            yield return new WaitForSeconds(1f);
+            if (!isDeath)
+            {
+                Attack();
+                yield return new WaitForSeconds(1f);
+            }
+            
         }
     }
 
     public void ChangeHealth(float value) {
         health -= value;
         if (health <= 0) {
-            Destroy(gameObject);
+            isDeath = true;
+            Destroy(gameObject, 0.3f);
             pointManager.Add_Battle_Point(20);
         }
     }
