@@ -90,7 +90,7 @@ public class Enemy : MonoBehaviour
         health -= value;
         if (health <= 0) {
             isDeath = true;
-            Destroy(gameObject, 0.3f);
+            Destroy(gameObject, 1f);
             pointManager.Add_Battle_Point(20);
         }
     }
