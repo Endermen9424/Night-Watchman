@@ -12,11 +12,13 @@ public class DeahtMenuScript : MonoBehaviour
     [SerializeField] TMP_Text Battle_point_Area;
     [SerializeField] GameObject Health_Bar;
 
+    [SerializeField] GameObject crosshair;
     public void Deaht() {
         Cursor.lockState = CursorLockMode.None;
         DeahtMenu.SetActive(true);
         Battle_point_GameArea.SetActive(false);
         Health_Bar.SetActive(false);
+        crosshair.SetActive(false);
         if (PlayerPrefs.HasKey("Battle_Point")) {
             Battle_point_Area.text = PlayerPrefs.GetInt("Battle_Point").ToString() + "bp";
         }
@@ -24,5 +26,9 @@ public class DeahtMenuScript : MonoBehaviour
 
     public void Restart(){
         SceneManager.LoadScene("Game");
+    }
+
+    public void Go_to_the_MainMenu() {
+        SceneManager.LoadScene("MainMenu");
     }
 }

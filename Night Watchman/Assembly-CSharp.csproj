@@ -79,6 +79,7 @@
     <Compile Include="Assets\UnityTechnologies\StarterAssets\Mobile\Scripts\CanvasInputs\UICanvasControllerInput.cs" />
     <Compile Include="Assets\Scripts\Charecter\PlayerHealthController.cs" />
     <Compile Include="Assets\Scripts\Charecter\PlayerCameraContoller.cs" />
+    <Compile Include="Assets\Scripts\GameManagerScripts\MainMenu.cs" />
     <Compile Include="Assets\UnityTechnologies\StarterAssets\ThirdPersonController\Scripts\ThirdPersonController.cs" />
     <Compile Include="Assets\Scripts\Weapon\Pistol.cs" />
     <Compile Include="Assets\Scripts\Weapon\Weapon.cs" />
