@@ -53,13 +53,7 @@ public class Enemy : MonoBehaviour
             coroutineRunning = true;
         }
         else {
-            if (!isDeath)
-            {
-                Walk();
-            }
-            else{
-                rb.velocity = new Vector3(0, 0, 0);
-            }
+            Walk();
         }
     }
 
@@ -83,19 +77,15 @@ public class Enemy : MonoBehaviour
 
     public IEnumerator RunAttack() {
         while (true) { // exit after 3 attacks
-            if (!isDeath) {
-                Attack();
-                yield return new WaitForSeconds(1f);
-            }
+            Attack();
+            yield return new WaitForSeconds(1f); 
         }
     }
 
     public void ChangeHealth(float value) {
         health -= value;
         if (health <= 0) {
-            isDeath = true;
-            anim.SetBool("Death", true);
-            Destroy(gameObject, 1);
+            Destroy(gameObject);
             pointManager.Add_Battle_Point(20);
         }
     }
