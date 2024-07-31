@@ -5,7 +5,17 @@ using UnityEngine.SceneManagement;
 
 public class MainMenu : MonoBehaviour
 {
-    public void StartGame(){
+    public void StartGame() {
         SceneManager.LoadScene("Game");
+    }
+
+    public void Settings() {
+        SceneManager.LoadScene("Settings");
+    }
+
+    private void Update() {
+        if (Input.GetKeyDown(KeyCode.Escape)) {
+            Application.Quit();
+        }
     }
 }
