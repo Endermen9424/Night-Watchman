@@ -13,6 +13,12 @@ public class DeahtMenuScript : MonoBehaviour
     [SerializeField] GameObject Health_Bar;
 
     [SerializeField] GameObject crosshair;
+
+    [SerializeField] AudioSource audioSource;
+
+    private void Start() {
+        audioSource.volume = PlayerPrefs.GetFloat("SoundValue", 1);
+    }
     public void Deaht() {
         Cursor.lockState = CursorLockMode.None;
         DeahtMenu.SetActive(true);
