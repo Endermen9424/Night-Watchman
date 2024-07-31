@@ -16,7 +16,8 @@ public class SettingsManager : MonoBehaviour
         PlayerPrefs.SetFloat("SoundValue", slider.value);
     }
 
-    public void GoBack() {
-        SceneManager.LoadScene("MainMenu");
+    public void Update() {
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {SceneManager.LoadScene("MainMenu");}
     }
 }
