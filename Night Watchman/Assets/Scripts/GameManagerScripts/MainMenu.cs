@@ -13,6 +13,10 @@ public class MainMenu : MonoBehaviour
         SceneManager.LoadScene("Settings");
     }
 
+    public void Trader() {
+        SceneManager.LoadScene("WaponsTraderScene");
+    }
+
     private void Update() {
         if (Input.GetKeyDown(KeyCode.Escape)) {
             Application.Quit();
