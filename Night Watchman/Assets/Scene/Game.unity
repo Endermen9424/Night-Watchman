@@ -5994,6 +5994,7 @@ GameObject:
   - component: {fileID: 1708457862}
   - component: {fileID: 1708457861}
   - component: {fileID: 1708457863}
+  - component: {fileID: 1708457864}
   m_Layer: 0
   m_Name: PointManager
   m_TagString: Untagged
@@ -6047,6 +6048,22 @@ MonoBehaviour:
   Health_Bar: {fileID: 1606433615}
   crosshair: {fileID: 448077417}
   audioSource: {fileID: 157207116}
+--- !u!114 &1708457864
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1708457860}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3e993e565dd6a474ab3b8114ffa8235c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cheap: {fileID: 682453463}
+  medium: {fileID: 1710071289}
+  expensive: {fileID: 1283081292}
+  super: {fileID: 581170821}
 --- !u!1 &1710071289
 GameObject:
   m_ObjectHideFlags: 0
